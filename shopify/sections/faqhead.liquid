@@ -1,0 +1,45 @@
+<div class="faqhead">
+  <div class="faq-btn">
+    <button>{{ section.settings.text_1 }}</button>
+  </div>
+  <div class="faqheading">
+    <h1>{{ section.settings.text_2 }}</h1>
+  </div>
+  <div class="faqdesc">
+    <p>{{ section.settings.text_3 }}</p>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "faqhead",
+  "settings": [
+    {
+      "label": "text_1",
+      "id": "text_1",
+      "type": "text"
+    },
+    {
+      "label": "text_2",
+      "id": "text_2",
+      "type": "text"
+    },
+    {
+      "label": "text_3",
+      "id": "text_3",
+      "type": "text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "faqhead"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

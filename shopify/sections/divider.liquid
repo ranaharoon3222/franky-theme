@@ -1,0 +1,37 @@
+<svg class="d-{{ section.id }} dvd " xmlns="http://www.w3.org/2000/svg" viewBox="1.9 2.56667 14.2 1.533">
+  <path d="M2 4S9 1 16 4" fill="{{ section.settings.color }}"/>
+</svg>
+
+<style>
+  .dvd  {
+    margin-bottom: -27px;
+  }
+  @media all and (max-width:980px) {
+      .dvd  {
+    margin-bottom: -11px;
+  }
+  }
+</style>
+{% schema %}
+{
+  "name": "Divider",
+  "settings": [
+    {
+      "label": "COlor",
+      "id": "color",
+      "type": "text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Divider"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

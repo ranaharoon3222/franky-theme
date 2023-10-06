@@ -1,0 +1,20 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-login",
+      "custom_css": [
+        ".customer.login {width: 34rem;}",
+        "button {text-decoration: none; background-color: #f48f86; color: #fff; padding: 10px 25px; font-family: boldenvan_demoregular; border-radius: 20px;}",
+        "button:hover,button:focus {outline: none; border: none;}",
+        "#login {color: #5ec3b2;}"
+      ],
+      "settings": {
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

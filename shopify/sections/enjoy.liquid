@@ -1,0 +1,123 @@
+
+<section>
+  <div class="enjoylotssec secspacing">
+        <div class="wrapper">
+            <div class="enjoymain">
+                <div class="benefith">
+                    <h1>{{ section.settings.title1 }}</h1>
+                </div>
+                <h2>{{ section.settings.title2 }}</h2>
+                <p>{{ section.settings.para1 }}</p>
+            </div>
+            <div class="enjoylotsbox">
+                <div class="enjoylots1">
+                    <div class="enjoylotstext">
+                        <div class="enjoybear">
+                            <img src="{{ section.settings.image1 | image_url }}" alt="">
+                        </div>
+                        
+                        <h3>{{ section.settings.title3 }}</h3>
+                        <p>{{ section.settings.para2 }}</p>
+                    </div>
+                </div>
+                <div class="enjoylots1">
+                    <div class="enjoylotstext">
+                        <div class="enjoybear">
+                            <img src="{{ section.settings.image2 | image_url }}" alt="">
+                        </div>
+                        
+                        <h3>{{ section.settings.title4 }}</h3>
+                        <p>{{ section.settings.para3 }}</p>
+                    </div>
+                </div>
+                <div class="enjoylots1">
+                    <div class="enjoylotstext">
+                        <div class="enjoybear">
+                            <img src="{{ section.settings.image3 | image_url }}" alt="">
+                        </div>
+                        
+                        <h3>{{ section.settings.title5 }}</h3>
+                        <p>{{ section.settings.para4 }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="enjoylotbtn">
+              <a class="p_btn" href="/pages/our-product">Order For Franky</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% schema %}
+{
+  "name": "enjoy",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title1",
+      "label": "title1"
+    },
+    {
+      "type": "text",
+      "id": "title2",
+      "label": "title2"
+    },
+    {
+      "type": "text",
+      "id": "title3",
+      "label": "title3"
+    },
+    {
+      "type": "text",
+      "id": "title4",
+      "label": "title4"
+    },
+    {
+      "type": "text",
+      "id": "title5",
+      "label": "title5"
+    },
+    {
+      "type": "richtext",
+      "id": "para1",
+      "label": "para1"
+    },
+    {
+      "type": "richtext",
+      "id": "para2",
+      "label": "para2"
+    },
+    {
+      "type": "richtext",
+      "id": "para3",
+      "label": "para3"
+    },
+    {
+      "type": "richtext",
+      "id": "para4",
+      "label": "para4"
+    },
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "image1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "image2"
+    },
+    {
+      "type": "image_picker",
+      "id": "image3",
+      "label": "image3"
+    }
+  ],
+  "presets": [
+    {
+      "name": "enjoy"
+    }
+  ]
+}
+{% endschema %}

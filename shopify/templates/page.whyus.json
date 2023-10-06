@@ -1,0 +1,157 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "160b1d86-3e14-43a0-94b4-62afac386226": {
+      "type": "section_1",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image_2": "shopify://shop_images/Group_454.png",
+        "html": "",
+        "description": "<p>At For Franky, we're aware of a major problem in dog food: the lack of consideration for dogs' health and impact on the planet. So we make it easy to receive and supply the right amount of dog food with flexible monthly home delivery. What's more, we precisely calculate the daily amount to be fed. </p><p><br/>We care about our dogs' well-being. That's why we continually invest in research, development and product improvement. Our formula has been specially created to offer your dog optimal nutritional balance while minimizing our environmental footprint. Try us now! You'll pay only a small delivery charge, and we'll take care of the rest.</p>",
+        "txt_header": "Welcome in the world of For Franky",
+        "txt_1": "Your dog always comes first.",
+        "txt_2": "",
+        "txt_3": "",
+        "txt_4": "",
+        "txt_5": "",
+        "link": "/pages/our-product#quizz",
+        "call_to_action": "Try now"
+      }
+    },
+    "e29871cb-67d0-450d-8757-ece3e01f8b08": {
+      "type": "whyus_section_1",
+      "custom_css": [
+        "p {font-size: 15px; max-width: 400px;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/bgZinc_aac3c963-8591-4c4c-9791-7a5b51cea4ad.png",
+        "image_2": "shopify://shop_images/Group_433.png",
+        "image_3": "shopify://shop_images/Group_433.png",
+        "image_4": "shopify://shop_images/Group_433.png",
+        "image_5": "shopify://shop_images/Group_433.png",
+        "image_6": "shopify://shop_images/Group_434.png",
+        "image_7": "shopify://shop_images/Group_434.png",
+        "image_8": "shopify://shop_images/Group_435.png",
+        "image_9": "shopify://shop_images/Group_435.png",
+        "image_10": "shopify://shop_images/Group_183.png",
+        "text_1": "Insect based dog food",
+        "text_2": "A healthy and clean way of providing the proteins your dog needs.",
+        "text_3": "Made in Belgium",
+        "text_4": "Our production is made in small batches and made locally. ",
+        "text_5": "Carefully Created recipe",
+        "text_6": "Our recipe has been created with expert nutritionists to create a balanced diet for your dog. ",
+        "text_7": "Ecological delivery",
+        "text_8": "We only work together with the most environmental companies to provide a clean and flexible delivery at home. "
+      }
+    },
+    "4a9ed7fb-a5a6-4486-a540-0f273ea6c93f": {
+      "type": "whyus_section_2",
+      "settings": {
+        "class": "",
+        "image_6": "shopify://shop_images/careAboutDog.png",
+        "text_1": "Why For Franky ?",
+        "text_2": "We care about your dog",
+        "text_3": "Our idea is to not only create a healthy diet for your dog, we also wish to make you more aware about how much your dog needs to eat, keep up with dog nutrition and how to keep your dog healthy. Find out how much your buddy really needs to eat everyday by using our calculator in our “try now section”. People need to be given the right information about their dog, because every dog’s different. Try us out for free! Pay only a small delivery fee and we’ll provide a starting kit for you to try out.  ",
+        "li_one": "Free 2 week trial",
+        "li_two": "Free delivery for subscriptions",
+        "li_three": "Reusable packaging",
+        "call_to_action": "Try now"
+      }
+    },
+    "026a93db-690c-4bb2-ae8f-61a7c635b78e": {
+      "type": "about_section_2",
+      "custom_css": [
+        "p {margin: 0;}",
+        "ul {padding: 0;}"
+      ],
+      "settings": {
+        "image_2": "shopify://shop_images/Intersect_9c36c041-75cb-4d30-9351-ffe35611ae6a.png",
+        "image_3": "shopify://shop_images/Group_398_ee2909cb-b146-4745-bb5e-43e792b3b1e8.png",
+        "image_4": "shopify://shop_images/section_3-tick_bc10240e-c5af-41e8-b767-36d4c9192046.png",
+        "image_5": "shopify://shop_images/animal-print-circle_1.png",
+        "image_6": "shopify://shop_images/animal-print-circle_1.png",
+        "image_7": "shopify://shop_images/Group_398_ee2909cb-b146-4745-bb5e-43e792b3b1e8.png",
+        "text_3": "Try For Franky",
+        "text_4": "About us",
+        "text_5": "We care about our planet",
+        "text_6": "",
+        "text_7": "Sustainable super foods and local products",
+        "text_8": "Waste reduction through circular reuse of packaging ",
+        "text_9": "Ecological delivery. ",
+        "text_10": "Try now"
+      }
+    },
+    "001a379a-d046-4da4-bb8e-9d3e07d1d659": {
+      "type": "section_ingredients",
+      "disabled": true,
+      "settings": {
+        "back": "shopify://shop_images/why_franky_bg.png",
+        "image_1": "shopify://shop_images/Intersect_55afb7d4-9c4e-43dc-b123-ce7d8d8bd88a.png",
+        "image_2": "shopify://shop_images/Group_399_1.png",
+        "text_1": "What’s inside?",
+        "text_2": "We care about our ingredients.",
+        "text_3": "To ensure that we have fresh ingredients, we focused on delivering vegetables that are either produced in Belgium or come from neighboring countries. We opted for high quality products who do not need to be imported from outside of the EU or have been frees-dried since several seasons. Much of the common ingredients used in pet foods comes from Latin America and China. Apart from our natural algae oil, which had no qualitative equivalent in the EU, 99% from our products are produced in the EU, of which 72% produced in Belgium or neighboring countries. We commit to increase the local origin of our products.  ",
+        "text_4": "Dried insect protein & Rape seed oil",
+        "text_5": "Potato & Seed oil Minerals",
+        "text_6": "Peas & Apples & Carrots",
+        "text_7": "Pumpkin & Chicory & Natural algae oil",
+        "call_to_action": "",
+        "link": "shopify://pages/our-product"
+      }
+    },
+    "7421c320-ee9f-44c0-b6c8-d35a08073339": {
+      "type": "whyus_section_2",
+      "disabled": true,
+      "settings": {
+        "class": "second_first",
+        "image_6": "shopify://shop_images/Vector_5_2889fd32-6ee6-4ee2-920d-a71bfa882cf7.png",
+        "text_1": "Why For Franky",
+        "text_2": "We care about our planet",
+        "text_3": "For Franky's kibbles replace the traditional sources of protein such asfish and meat by using insect flour. This source of protein requiressubstantially less water, land andenergy to produce.",
+        "li_one": "",
+        "li_two": "",
+        "li_three": "",
+        "call_to_action": ""
+      }
+    },
+    "f83c2e9b-e113-4480-aa7e-cbae2af66995": {
+      "type": "section_6",
+      "custom_css": [
+        "h5 {color: #fff; margin: 0;}",
+        "h6 {color: #fff; margin: 0;}",
+        "h2 {margin: 0 auto;}"
+      ],
+      "settings": {
+        "blogs": "news",
+        "link": "shopify://blogs/news",
+        "text_1": "Keep up to date with our newsfeed",
+        "text_2": "Stay in the loop ! We will send you an email once in a while with information catered to your dogs need & wellbeing, special offers and invitations to exclusive events!",
+        "text_3": "#HEALTH",
+        "read_posts": "",
+        "call_to_action": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "160b1d86-3e14-43a0-94b4-62afac386226",
+    "e29871cb-67d0-450d-8757-ece3e01f8b08",
+    "4a9ed7fb-a5a6-4486-a540-0f273ea6c93f",
+    "026a93db-690c-4bb2-ae8f-61a7c635b78e",
+    "001a379a-d046-4da4-bb8e-9d3e07d1d659",
+    "7421c320-ee9f-44c0-b6c8-d35a08073339",
+    "f83c2e9b-e113-4480-aa7e-cbae2af66995"
+  ]
+}

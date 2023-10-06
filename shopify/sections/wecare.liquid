@@ -1,0 +1,119 @@
+
+<section>
+  <div class="wecaresec secspacing">
+        <div class="wrapper">
+            <div class="deliciousbox">
+                <div class="wecare2">
+                    <div class="whyh">
+                        <h1>{{ section.settings.title1 }}</h1>
+                    </div>
+                    <h2>{{ section.settings.title2 }}</h2>
+
+                    <div class="wecaretext">
+                        <div class="wepara"> 
+                        <p  >{{ section.settings.para1 }}</p> 
+                          </div>
+                        <div class="welistitembox">
+                            <div class=" listitems">
+                                <img src="{{ section.settings.image1 | image_url }}" alt="">
+                                <div class="local">
+                              <p >{{ section.settings.para2 }}</p>
+                                  </div>
+                            </div>
+                            <div class="listitems">
+                                <img src="{{ section.settings.image2 | image_url }}" alt="">
+                                <div class="local">
+                              <p >{{ section.settings.para3 }}</p>
+                                  </div>
+                            </div>
+                            <div class="listitems">
+                                <img src="{{ section.settings.image3 | image_url }}" alt="">
+                                <div class="local">
+                              <p >{{ section.settings.para4 }}</p>
+                                   </div>
+                            </div>
+                        </div>
+                       
+
+                        
+                        <div class="wecarebtn">
+                            <button>Try For Franky</button>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+                <div class="delicious1">
+                    <img src="{{ section.settings.image4 | image_url }}" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+{% schema %}
+{
+  "name": "wecare",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title1",
+      "label": "title1"
+    },
+    {
+      "type": "text",
+      "id": "title2",
+      "label": "title2"
+    },
+    {
+      "type": "richtext",
+      "id": "para1",
+      "label": "Paragraph"
+    },
+    {
+      "type": "richtext",
+      "id": "para2",
+      "label": "items"
+    },
+    {
+      "type": "richtext",
+      "id": "para3",
+      "label": "items"
+    },
+    {
+      "type": "richtext",
+      "id": "para4",
+      "label": "items"
+    },
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "listicons"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "listicons"
+    },
+    {
+      "type": "image_picker",
+      "id": "image3",
+      "label": "listicons"
+    },
+    {
+      "type": "image_picker",
+      "id": "image4",
+      "label": "bannerimage"
+    }
+  ],
+  "presets": [
+    {
+      "name": "wecare"
+    }
+  ]
+}
+{% endschema %}

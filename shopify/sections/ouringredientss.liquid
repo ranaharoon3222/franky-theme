@@ -1,0 +1,143 @@
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<section>
+  <div style="background-image: url('{{ section.settings.bg | image_url }}');" class="ingredeintssec secspacing">
+    <div class="wrapper">
+      <div class="ingremain">
+        <div class="ingreh">
+          <h2>{{ section.settings.title1 }}</h2>
+        </div>
+        <h1>{{ section.settings.title2 }}</h1>
+        <p>{{ section.settings.subtitle1 }}</p>
+      </div>
+
+      <!-- Slider main container -->
+      <div class="swiper p_slider">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          {% for block in section.blocks %}
+            <div class="swiper-slide">
+              <div class="seaweedbox">
+                <div class="">
+                  <div class="seaimage">
+                    <img src="{{ block.settings.image | image_url }}" alt="" loading="lazy">
+                  </div>
+                  <h1>{{ block.settings.title }}</h1>
+                  <p>{{ block.settings.text }}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev">
+          <svg
+            clip-rule="evenodd"
+            fill-rule="evenodd"
+            stroke-linejoin="round"
+            stroke-miterlimit="2"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="m12.017 1.995c5.517 0 9.997 4.48 9.997 9.998s-4.48 9.998-9.997 9.998c-5.518 0-9.998-4.48-9.998-9.998s4.48-9.998 9.998-9.998zm0 1.5c-4.69 0-8.498 3.808-8.498 8.498s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.498-8.497-8.498zm-1.528 4.715s-1.502 1.505-3.255 3.259c-.147.147-.22.339-.22.531s.073.383.22.53c1.753 1.754 3.254 3.258 3.254 3.258.145.145.335.217.526.217.192-.001.384-.074.531-.221.292-.293.294-.766.003-1.057l-1.977-1.977h6.693c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-6.693l1.978-1.979c.29-.289.287-.762-.006-1.054-.147-.147-.339-.221-.53-.222-.19 0-.38.071-.524.215z" fill-rule="nonzero"/>
+          </svg>
+        </div>
+        <div class="swiper-button-next">
+          <svg
+            clip-rule="evenodd"
+            fill-rule="evenodd"
+            stroke-linejoin="round"
+            stroke-miterlimit="2"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="m12.017 1.995c5.517 0 9.997 4.48 9.997 9.998s-4.48 9.998-9.997 9.998c-5.518 0-9.998-4.48-9.998-9.998s4.48-9.998 9.998-9.998zm0 1.5c-4.69 0-8.498 3.808-8.498 8.498s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.498-8.497-8.498zm-1.528 4.715s-1.502 1.505-3.255 3.259c-.147.147-.22.339-.22.531s.073.383.22.53c1.753 1.754 3.254 3.258 3.254 3.258.145.145.335.217.526.217.192-.001.384-.074.531-.221.292-.293.294-.766.003-1.057l-1.977-1.977h6.693c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-6.693l1.978-1.979c.29-.289.287-.762-.006-1.054-.147-.147-.339-.221-.53-.222-.19 0-.38.071-.524.215z" fill-rule="nonzero"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  const swiper = new Swiper('.p_slider', {
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    slidesPerView: 1,
+    spaceBetween: 10,
+
+    breakpoints: {
+      // when window width is >= 320px
+      980: {
+        slidesPerView: 3,
+        spaceBetween: 60,
+      },
+    },
+  });
+</script>
+
+{% schema %}
+{
+  "name": "ouringredientss",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg",
+      "label": "bgimage"
+    },
+    {
+      "type": "text",
+      "id": "title1",
+      "label": "title1"
+    },
+    {
+      "type": "text",
+      "id": "subtitle1",
+      "label": "subtitle"
+    },
+    {
+      "type": "text",
+      "id": "title2",
+      "label": "title2"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slides",
+      "name": "slides",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "ouringredientss"
+    }
+  ]
+}
+{% endschema %}

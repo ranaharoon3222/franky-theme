@@ -1,0 +1,17 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-404",
+      "custom_css": [
+        "h1 {color: #5ec3b2;}",
+        "a {text-decoration: none; background-color: #f48f86; color: #fff; padding: 10px 25px; font-family: boldenvan_demoregular; border-radius: 20px;}",
+        "p {color:#5ec3b2; font-size:4rem;}"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

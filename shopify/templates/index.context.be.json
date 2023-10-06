@@ -1,0 +1,13 @@
+{
+  "parent": "index.json",
+  "context": {
+    "market": "be"
+  },
+  "sections": {
+    "02ef7ed8-ab39-4d20-88b8-99bb39fabc2b": {
+      "settings": {
+        "image": "shopify://shop_images/computer-bg-en.png"
+      }
+    }
+  }
+}

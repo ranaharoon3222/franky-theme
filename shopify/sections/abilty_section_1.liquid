@@ -1,0 +1,152 @@
+<div class="healthBenifets">
+  <div class="wrapperr">
+    <div class="benifetsText">
+      <button class="casual_btn">{{ section.settings.text_1 }}</button>
+      <h1>{{ section.settings.text_2 }}</h1>
+    </div>
+    <div class="timeline">
+      <div class=" pure-g">
+        <div class="time_div">
+          <h3 class="time">1</h3>
+        </div>
+        <div class="img-class pure-u-1 pure-u-md-12-24">
+          <img src="{{ section.settings.image_1 | image_url }}" alt="">
+        </div>
+        <div class=" text-class pure-u-1 pure-u-md-12-24">
+          <h3>{{ section.settings.text_3 }}</h3>
+          <p>
+            {{ section.settings.text_4 }}
+          </p>
+        </div>
+      </div>
+
+      <div class=" pure-g">
+        <div class="time_div">
+          <h3 class="time">2</h3>
+        </div>
+        <div class=" text-class pure-u-1 pure-u-md-12-24">
+          <h3>{{ section.settings.text_5 }}</h3>
+          <p>
+            {{ section.settings.text_6 }}
+          </p>
+        </div>
+
+        <div class="img-class pure-u-1 pure-u-md-12-24">
+          <img src="{{ section.settings.image_2 | image_url }}" alt="">
+        </div>
+      </div>
+
+      <div class=" pure-g">
+        <div class="time_div">
+          <h3 class="time">3</h3>
+        </div>
+        <div class="img-class pure-u-1 pure-u-md-12-24">
+          <img src="{{ section.settings.image_3 | image_url }}" alt="">
+        </div>
+        <div class=" text-class pure-u-1 pure-u-md-12-24">
+          <h3>{{ section.settings.text_7 }}</h3>
+          <p>
+            {{ section.settings.text_8 }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="benifets_last">
+    <a class="p_btn_2 quizOpen">{{ section.settings.text_9 }}</a>
+  </div>
+</div>
+
+<style>
+    .healthBenifets {
+    background-image: url({{ section.settings.custom_bg | image_url }});
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+      padding-bottom: 100px;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "abilty_section-1",
+  "settings": [
+    {
+      "label": "custom_bg",
+      "id": "custom_bg",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_1",
+      "id": "image_1",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_2",
+      "id": "image_2",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_3",
+      "id": "image_3",
+      "type": "image_picker"
+    },
+    {
+      "label": "text_1",
+      "id": "text_1",
+      "type": "text"
+    },
+    {
+      "label": "text_2",
+      "id": "text_2",
+      "type": "text"
+    },
+    {
+      "label": "text_3",
+      "id": "text_3",
+      "type": "text"
+    },
+    {
+      "label": "text_4",
+      "id": "text_4",
+      "type": "text"
+    },
+    {
+      "label": "text_5",
+      "id": "text_5",
+      "type": "text"
+    },
+    {
+      "label": "text_6",
+      "id": "text_6",
+      "type": "text"
+    },
+    {
+      "label": "text_7",
+      "id": "text_7",
+      "type": "text"
+    },
+    {
+      "label": "text_8",
+      "id": "text_8",
+      "type": "text"
+    },
+    {
+      "label": "text_9",
+      "id": "text_9",
+      "type": "text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "abilty_section-1"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

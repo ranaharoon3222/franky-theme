@@ -1,0 +1,113 @@
+<div class="section_3">
+  <div class="pure-g wrapperr">
+    <div class="section_3_left pure-u-1 pure-u-md-12-24">
+      <div class="section_3-image">
+        <img src="{{ section.settings.image_1 | image_url }}" alt="">
+      </div>
+    </div>
+    <div class="section_3_right pure-u-1 pure-u-md-12-24">
+      <div class="section_3-button">
+        <button>{{ section.settings.text_1 }}</button>
+      </div>
+      <div class="section_3-title">
+        <h1>{{ section.settings.text_2 }}</h1>
+      </div>
+      <div class="section_3-subtitle">
+        <p>
+          {{ section.settings.text_3 }}
+        </p>
+      </div>
+      <div class="section_3-tick">
+        <div class="section_3-ok">
+          <img src="{{ section.settings.image_2 | image_url }}" alt="">
+          <h5>{{ section.settings.text_4 }}</h5>
+        </div>
+        <div class="section_3-ok">
+          <img src="{{ section.settings.image_3 | image_url }}" alt="">
+          <h5>{{ section.settings.text_5 }}</h5>
+        </div>
+        <div class="section_3-ok">
+          <img src="{{ section.settings.image_4 | image_url }}" alt="">
+          <h5>{{ section.settings.text_6 }}</h5>
+        </div>
+      </div>
+      <div class="section_3-btn">
+        <a href="{{ section.settings.link_1 }}" class="p_btn">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "section_3",
+  "settings": [
+    {
+      "label": "image_1",
+      "id": "image_1",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_2",
+      "id": "image_2",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_3",
+      "id": "image_3",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_4",
+      "id": "image_4",
+      "type": "image_picker"
+    },
+    {
+      "label": "text_1",
+      "id": "text_1",
+      "type": "text"
+    },
+    {
+      "label": "text_2",
+      "id": "text_2",
+      "type": "text"
+    },
+    {
+      "label": "text_3",
+      "id": "text_3",
+      "type": "text"
+    },
+    {
+      "label": "text_4",
+      "id": "text_4",
+      "type": "text"
+    },
+    {
+      "label": "text_5",
+      "id": "text_5",
+      "type": "text"
+    },
+    {
+      "label": "text_6",
+      "id": "text_6",
+      "type": "text"
+    },
+    {
+      "label": "link_1",
+      "id": "link_1",
+      "type": "url"
+    }
+  ],
+  "presets": [
+    {
+      "name": "section_3"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

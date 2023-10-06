@@ -1,0 +1,190 @@
+<div class="contectBanner page-width">
+  <div class="pure-g">
+    <div class="contectBanner_text pure-u-1 pure-u-md-12-24">
+      <div class="contectBanner-btn">
+        <button>{{ section.settings.text_1 }}</button>
+      </div>
+      <div class="contectBanner-title">
+        <h1>{{ section.settings.text_2 }}</h1>
+      </div>
+      <div class="contectBanner-desc">
+        <p>
+          {{ section.settings.text_3 }}
+          <a href="/pages/faq"> {{ section.settings.text_4 }}</a>
+        </p>
+      </div>
+    </div>
+    <div class="contectBanner_image pure-u-1 pure-u-md-12-24">
+      <img src="{{ section.settings.image_1 | image_url }}" alt="banner-image">
+    </div>
+  </div>
+</div>
+<div class="content_section_2  pure-g page-width">
+  {% comment %}
+  <div class="content_section_img pure-u-1 pure-u-md-12-24">
+    <img style="object-fit: cover;" src="{{ section.settings.image_2 | img_url : 'master' }}" alt="image">
+  </div>
+  {% endcomment %}
+  <div style=" margin: auto; width: 90%;" class="content_section_form pure-u-1 pure-u-md-12-24">
+    <div class="form_title">
+      <h2>{{ section.settings.text_5 }}</h2>
+    </div>
+    <div class="form_desc">
+      <p>
+        {{ section.settings.text_6 }}
+        <a href="/pages/faq">{{ section.settings.text_7 }}</a>
+      </p>
+    </div>
+
+     {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
+         {%- if form.posted_successfully? -%}
+        <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
+          {% render 'icon-success' %}
+          {{ 'templates.contact.form.post_success' | t }}
+        </h2>
+      {%- elsif form.errors -%}
+        <div class="form__message">
+          <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>
+            {% render 'icon-error' %}
+            {{ 'templates.contact.form.error_heading' | t }}
+          </h2>
+        </div>
+        <ul class="form-status-list caption-large" role="list">
+          <li>
+            <a href="#ContactForm-email" class="link">
+              {{ form.errors.translated_fields.email | capitalize }}
+              {{ form.errors.messages.email }}
+            </a>
+          </li>
+        </ul>
+      {%- endif -%}
+
+    
+      <div class="frst_inpt">
+        <label>{{ section.settings.text_8 }}*</label>
+        <input  name="contact[name]" required type="text" placeholder="Adam Lejeune">
+      </div>
+      <div class="scnd_inpt">
+        <label>{{ section.settings.text_9 }}</label>
+        <input name="contact[email]" required type="email" placeholder="adam.lejeune@mail.com">
+      </div>
+      <div class="thrd_inpt">
+        <label>{{ section.settings.text_10 }}*</label>
+        <textarea
+          name="contact[body]"
+          name=""
+          id=""
+          cols="30"
+          rows="8"
+          placeholder="Message"
+        ></textarea>
+      </div>
+
+     <div class="form_lowr-part">
+      <input required name="contact[policy_checked]" type="checkbox">
+      <p>
+        {{ section.settings.text_11 }}
+        <a href="#"> {{ section.settings.text_12 }}</a>
+      </p>
+    </div>
+    <div class="contect_last-btn">
+      <button type='submit'>{{ section.settings.text_13 }}</button>
+    </div>
+  {% endform %}
+   
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "contect_section",
+  "settings": [
+    {
+      "label": "image_1",
+      "id": "image_1",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_2",
+      "id": "image_2",
+      "type": "image_picker"
+    },
+    {
+      "label": "text_1",
+      "id": "text_1",
+      "type": "text"
+    },
+    {
+      "label": "text_2",
+      "id": "text_2",
+      "type": "text"
+    },
+    {
+      "label": "text_3",
+      "id": "text_3",
+      "type": "text"
+    },
+    {
+      "label": "text_4",
+      "id": "text_4",
+      "type": "text"
+    },
+    {
+      "label": "text_5",
+      "id": "text_5",
+      "type": "text"
+    },
+    {
+      "label": "text_6",
+      "id": "text_6",
+      "type": "text"
+    },
+    {
+      "label": "text_7",
+      "id": "text_7",
+      "type": "text"
+    },
+    {
+      "label": "text_8",
+      "id": "text_8",
+      "type": "text"
+    },
+    {
+      "label": "text_9",
+      "id": "text_9",
+      "type": "text"
+    },
+    {
+      "label": "text_10",
+      "id": "text_10",
+      "type": "text"
+    },
+    {
+      "label": "text_11",
+      "id": "text_11",
+      "type": "text"
+    },
+    {
+      "label": "text_12",
+      "id": "text_12",
+      "type": "text"
+    },
+    {
+      "label": "text_13",
+      "id": "text_13",
+      "type": "text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "contect_section"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

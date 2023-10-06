@@ -1,0 +1,467 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "071d1d6b-9337-42a4-b8b5-7966661fb911": {
+      "type": "faqhead",
+      "settings": {
+        "text_1": "FAQ",
+        "text_2": "Frequently asked questions",
+        "text_3": "Have questions? We’re here to help."
+      }
+    },
+    "98a239b5-7ed2-44c1-a611-8bc2dd70655e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18148675485972__98a239b5-7ed2-44c1-a611-8bc2dd70655e-16840057526150f508-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h3>Are insect proteins healthy for my dog? </h3>",
+            "heading_size": "h2"
+          }
+        },
+        "template--18148675485972__98a239b5-7ed2-44c1-a611-8bc2dd70655e-16840057526150f508-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Insects are a healthy and nutritious alternative for animal proteins. They’re a rich source of proteins and contain essential amino acids. These Fatty acids are indispensable for the dog’s health. </p><p>However, it is important to note that not all insects are created equal in terms of their nutritional content. Some insects, such as crickets and mealworms, have a higher protein content compared to others. The insects we use are dried mealworms. Dried mealworms can be a healthy and nutritious treat for dogs. Mealworms are a good source of protein, vitamins, and minerals, making them a great alternative to traditional meat-based food. Here are some of the potential health benefits of feeding your dog dried mealworms:</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18148675485972__98a239b5-7ed2-44c1-a611-8bc2dd70655e-16840057526150f508-0",
+        "template--18148675485972__98a239b5-7ed2-44c1-a611-8bc2dd70655e-16840057526150f508-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "83a699d5-1551-4596-8269-52679d772f64": {
+      "type": "collapsible-content",
+      "blocks": {
+        "f208b003-1467-4d41-ac2b-8e97abe8569e": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Are insect proteins healthy for my dog? ",
+            "icon": "none",
+            "row_content": "<p>Insects are a healthy and nutritious alternative for animal proteins. They’re a rich source of proteins and contain essential amino acids. These Fatty acids are indispensable for the dog’s health. </p><p>However, it is important to note that not all insects are created equal in terms of their nutritional content. Some insects, such as crickets and mealworms, have a higher protein content compared to others. The insects we use are dried mealworms. Dried mealworms can be a healthy and nutritious treat for dogs. Mealworms are a good source of protein, vitamins, and minerals, making them a great alternative to traditional meat-based food. Here are some of the potential health benefits of feeding your dog dried mealworms:</p>",
+            "page": ""
+          }
+        },
+        "b58a7d50-85b3-4987-b2cb-023f1a8e4fc3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "High protein content:",
+            "icon": "none",
+            "row_content": "<p>Mealworms are a rich source of protein, containing around 50-60% protein by weight. Protein is essential for building and repairing muscle tissue and promoting healthy skin and coat.</p>",
+            "page": ""
+          }
+        },
+        "86fa306f-eb4c-48f3-90c8-80e79637e285": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Rich in essential amino acids:",
+            "icon": "none",
+            "row_content": "<p>Dried mealworms contain all essential amino acids that dogs need to maintain their health.</p>",
+            "page": ""
+          }
+        },
+        "14d275ed-6334-4360-8ab6-29455a286a0c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Low in fat: ",
+            "icon": "none",
+            "row_content": "<p>Mealworms are low in fat, making them a great treat for dogs that are watching their weight.</p>",
+            "page": ""
+          }
+        },
+        "fd0c9ad5-330c-49fb-bb1d-7ccaf71152b6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Rich in vitamins and minerals:",
+            "icon": "none",
+            "row_content": "<p>Mealworms are a good source of vitamins and minerals such as vitamin B12, iron, calcium, and zinc, which are important for a dog's overall health and well-being.</p>",
+            "page": ""
+          }
+        },
+        "f4243d82-006c-4af7-a70b-2ba2c96950ff": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hypoallergenic: ",
+            "icon": "none",
+            "row_content": "<p>Dried mealworms are a good alternative for dogs with food allergies or sensitivities to common protein sources such as chicken, beef, or lamb.</p><p>Additionally, some dogs may have digestive issues, so it's important to introduce them gradually and monitor your dog's reaction. As always, it's best to consult with your veterinarian before making any changes to your dog's diet.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "f208b003-1467-4d41-ac2b-8e97abe8569e",
+        "b58a7d50-85b3-4987-b2cb-023f1a8e4fc3",
+        "86fa306f-eb4c-48f3-90c8-80e79637e285",
+        "14d275ed-6334-4360-8ab6-29455a286a0c",
+        "fd0c9ad5-330c-49fb-bb1d-7ccaf71152b6",
+        "f4243d82-006c-4af7-a70b-2ba2c96950ff"
+      ],
+      "custom_css": [
+        ".h1 {color: #5ec3b2 !important;}"
+      ],
+      "settings": {
+        "class": "",
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "25b97395-57e4-47f2-9440-7368e24b2e3a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18148675485972__25b97395-57e4-47f2-9440-7368e24b2e3a-16840057526150f508-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Is natural algae oil good healthy for my dog? </p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--18148675485972__25b97395-57e4-47f2-9440-7368e24b2e3a-16840057526150f508-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can’t even imagine the health benefits that natural algae oil adds to your dog’s daily diet. Natural algae oil can be a good source of omega-3 fatty acids for dogs, which can provide several health benefits. Omega-3 fatty acids are essential fatty acids that dogs cannot produce on their own and must obtain from their diet.</p><p><br/></p><p>Here are some potential benefits of natural algae oil for dogs:</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18148675485972__25b97395-57e4-47f2-9440-7368e24b2e3a-16840057526150f508-0",
+        "template--18148675485972__25b97395-57e4-47f2-9440-7368e24b2e3a-16840057526150f508-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "6c1e25e4-2548-4cf4-a163-9779f57d1282": {
+      "type": "collapsible-content",
+      "blocks": {
+        "c9b39973-1098-4c7d-b007-7b797c735e05": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Promotes healthy skin and coat:",
+            "icon": "none",
+            "row_content": "<p>Omega-3 fatty acids can help promote healthy skin and a shiny coat by reducing inflammation and improving skin moisture content.</p>",
+            "page": ""
+          }
+        },
+        "0ee3bb8a-793f-4e04-8e9d-acfb915307da": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Supports joint health:",
+            "icon": "none",
+            "row_content": "<p>Omega-3 fatty acids have anti-inflammatory properties that can help reduce joint inflammation and stiffness, potentially improving mobility and reducing the risk of joint disease.</p>",
+            "page": ""
+          }
+        },
+        "1317d626-97f5-47e6-b473-7c4474107185": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Supports cognitive function:",
+            "icon": "none",
+            "row_content": "<p>Omega-3 fatty acids may help support cognitive function and improve memory in older dogs.</p>",
+            "page": ""
+          }
+        },
+        "162f29db-5b88-4e92-960a-21e343c14b4e": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Boosts immune function:",
+            "icon": "none",
+            "row_content": "<p>Omega-3 fatty acids can help support immune function and reduce the risk of certain diseases.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "c9b39973-1098-4c7d-b007-7b797c735e05",
+        "0ee3bb8a-793f-4e04-8e9d-acfb915307da",
+        "1317d626-97f5-47e6-b473-7c4474107185",
+        "162f29db-5b88-4e92-960a-21e343c14b4e"
+      ],
+      "custom_css": [
+        ".h1 {color: #5ec3b2 !important;}"
+      ],
+      "settings": {
+        "class": "",
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
+    "5160203f-5016-4bd7-8552-f37f90b3c8ba": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18148675485972__5160203f-5016-4bd7-8552-f37f90b3c8ba-16840057526150f508-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When choosing a natural algae oil supplement for your dog, it is important to consult with a veterinarian to ensure that it is appropriate for your dog's specific health needs and to determine the proper dosage. Additionally, you should choose a high-quality supplement from a reputable source to ensure that it is safe and effective.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18148675485972__5160203f-5016-4bd7-8552-f37f90b3c8ba-16840057526150f508-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "e12c2c77-9702-42cf-a63a-6bebd12a6b61": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18148675485972__e12c2c77-9702-42cf-a63a-6bebd12a6b61-16840057526150f508-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Does natural algae oil contain DHA and EPA? </p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--18148675485972__e12c2c77-9702-42cf-a63a-6bebd12a6b61-16840057526150f508-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Yes, natural algae oil is a good source of both DHA (docosahexaenoic acid) and EPA (eicosapentaenoic acid), which are two important omega-3 fatty acids. In fact, natural algae oil is one of the few plant-based sources of DHA and EPA, which are more commonly found in fish and fish oil supplements.</p><p><br/></p><p>The DHA and EPA in natural algae oil come from the algae itself, which is where fish and other marine animals get their omega-3 fatty acids from. Algae oil is a sustainable and environmentally friendly source of DHA and EPA, and is often used as a vegetarian or vegan alternative to fish oil supplements.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18148675485972__e12c2c77-9702-42cf-a63a-6bebd12a6b61-16840057526150f508-0",
+        "template--18148675485972__e12c2c77-9702-42cf-a63a-6bebd12a6b61-16840057526150f508-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "3d9fa631-76dd-4b10-9373-b037cee78809": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18148675485972__3d9fa631-76dd-4b10-9373-b037cee78809-16840057526150f508-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>How do I transfer from one dog food to another? </p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--18148675485972__3d9fa631-76dd-4b10-9373-b037cee78809-16840057526150f508-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Transferring your dog from one food to another should be done gradually over the course of several days to avoid digestive upset. Here's a general guideline on how to transition your dog from one food to another:</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18148675485972__3d9fa631-76dd-4b10-9373-b037cee78809-16840057526150f508-0",
+        "template--18148675485972__3d9fa631-76dd-4b10-9373-b037cee78809-16840057526150f508-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "0e78124e-3961-42b5-811d-f16c72bbeab7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18148675485972__0e78124e-3961-42b5-811d-f16c72bbeab7-16840057526150f508-1": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Start by mixing a small amount (about 25%) of the new food with the current food. You can gradually increase the amount of new food and decrease the amount of old food over the next few days.</li><li>Watch your dog's reaction to the new food. Some dogs may experience digestive upset, such as diarrhea or vomiting, during the transition period. If your dog has a sensitive stomach, you may want to transition more slowly or consult with your veterinarian.</li><li>It's important to make sure your dog is drinking enough water during the transition period. You can add a little water to the new food to make it more palatable and encourage your dog to drink more water.</li><li>Once you have fully transitioned to the new food, monitor your dog's weight, coat condition, energy level, and overall health to make sure the new food is meeting their nutritional needs.</li></ul><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18148675485972__0e78124e-3961-42b5-811d-f16c72bbeab7-16840057526150f508-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "7885ede6-e38c-4025-a148-a4e55f9d4e43": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18148675485972__7885ede6-e38c-4025-a148-a4e55f9d4e43-16840057526150f508-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Remember that each dog is unique, and their nutritional needs may vary depending on their age, breed, activity level, and health condition. It's always a good idea to consult with your veterinarian before making any changes to your dog's diet.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18148675485972__7885ede6-e38c-4025-a148-a4e55f9d4e43-16840057526150f508-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "4356665a-5d2f-40a1-b709-1e02abdc8254": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18148675485972__4356665a-5d2f-40a1-b709-1e02abdc8254-16840057526150f508-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>How does your bucket system work? </p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--18148675485972__4356665a-5d2f-40a1-b709-1e02abdc8254-16840057526150f508-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>How does it work? Easy, you give us information about your dog, we calculate how much he/she needs to eat and when we need to deliver your next bucket that we will collect next delivery. Every bucket has a €5 deposit that will be returned to you after we have successfully received the bucket and intact. Is the bucket not empty yet? No problem! You can either keep it until the next delivery, or tell us to wait for the next delivery a day or two until the bucket is empty. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18148675485972__4356665a-5d2f-40a1-b709-1e02abdc8254-16840057526150f508-0",
+        "template--18148675485972__4356665a-5d2f-40a1-b709-1e02abdc8254-16840057526150f508-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "63291beb-9083-436c-b2e0-d5cec7e09e0e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18148675485972__63291beb-9083-436c-b2e0-d5cec7e09e0e-16840057526150f508-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>How does your measurement cup work? </p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--18148675485972__63291beb-9083-436c-b2e0-d5cec7e09e0e-16840057526150f508-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our measurement cup is very user friendly and designed for your convenience. See those lines on the side: A, B, C and D? They correspond to certain weights. Look on top of your bucket how much you need to give each day to your dog.</p><p><br/></p><p>For example: 1xA, 1xC, means that you have to fill up the cup one time until A, and one time until C for correct dosage your dog’s food. </p><p><br/></p><p>We understand that the measuring cup provided in the buckets are no scientific measuring tools. However, we designed them for your convenience and to be as precise as possible. Want to step it up another level? Do not hesitate to use a scale to weigh the prescribed quantities. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18148675485972__63291beb-9083-436c-b2e0-d5cec7e09e0e-16840057526150f508-0",
+        "template--18148675485972__63291beb-9083-436c-b2e0-d5cec7e09e0e-16840057526150f508-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "23804b46-eeba-40c8-ad38-654d2af86e50": {
+      "type": "faq_section",
+      "custom_css": [
+        ".stillQuession {margin-top: 115px;}",
+        "h1 {margin: 0;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/Group_420_1.png",
+        "image_2": "shopify://shop_images/Group_244.png",
+        "image_3": "shopify://shop_images/dog_0de83367-9868-485a-ae6c-8d42b0fa2ce3.png",
+        "text_1": "Still have questions?",
+        "text_2": "Contact our team",
+        "text_3": "Get in touch"
+      }
+    },
+    "b744429b-fa72-4a0b-98b4-e9c7743a6195": {
+      "type": "section_6",
+      "custom_css": [
+        "h5 {color: #fff; margin: 0;}",
+        "h6 {color: #fff; margin: 0;}",
+        "h2 {margin: 0 auto;}",
+        ".section_6 {}"
+      ],
+      "settings": {
+        "blogs": "news",
+        "link": "shopify://blogs/news",
+        "text_1": "Keep up to date with our newsfeed",
+        "text_2": "",
+        "text_3": "",
+        "read_posts": "",
+        "call_to_action": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "071d1d6b-9337-42a4-b8b5-7966661fb911",
+    "98a239b5-7ed2-44c1-a611-8bc2dd70655e",
+    "83a699d5-1551-4596-8269-52679d772f64",
+    "25b97395-57e4-47f2-9440-7368e24b2e3a",
+    "6c1e25e4-2548-4cf4-a163-9779f57d1282",
+    "5160203f-5016-4bd7-8552-f37f90b3c8ba",
+    "e12c2c77-9702-42cf-a63a-6bebd12a6b61",
+    "3d9fa631-76dd-4b10-9373-b037cee78809",
+    "0e78124e-3961-42b5-811d-f16c72bbeab7",
+    "7885ede6-e38c-4025-a148-a4e55f9d4e43",
+    "4356665a-5d2f-40a1-b709-1e02abdc8254",
+    "63291beb-9083-436c-b2e0-d5cec7e09e0e",
+    "23804b46-eeba-40c8-ad38-654d2af86e50",
+    "b744429b-fa72-4a0b-98b4-e9c7743a6195"
+  ]
+}

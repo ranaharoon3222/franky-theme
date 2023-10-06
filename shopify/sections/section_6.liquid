@@ -1,0 +1,146 @@
+<svg class="d-{{ section.id }} dvd " xmlns="http://www.w3.org/2000/svg" viewBox="1.9 2.56667 14.2 1.533">
+  <path d="M2 4S9 1 16 4" fill="#fdf5f1"/>
+</svg>
+
+<style>
+  .dvd  {
+    margin-bottom: -24px;
+  }
+  @media all and (max-width:980px) {
+      .dvd  {
+    margin-bottom: -11px;
+  }
+  }
+</style>
+<div class="section_6">
+  <div class="wrapperr">
+    <div class="section_6-btn">
+      <button>Blog</button>
+    </div>
+    <div class="section_6-title_upper">
+      <div class="section_6-image"></div>
+      <div class="section_6-text">
+        <h2>
+          {{ section.settings.text_1 }}
+        </h2>
+      </div>
+    </div>
+    <div class="section_6-dsc">
+      <p>
+        {{ section.settings.text_2 }}
+      </p>
+    </div>
+    <div class="section_6-lower-btn">
+      <a href="{{ section.settings.link }}"><h2>{{ section.settings.read_posts }}</h2></a>
+    </div>
+    <div class="section_6-card">
+      {% paginate section.settings.blogs.articles by 2 %}
+        {% for blog in section.settings.blogs.articles %}
+          <div class="section_6-card">
+            <a href="{{ blog.url }}">
+              <div
+                class="section_6-card_image_frst"
+                style='background-image: url("{{ blog.image | image_url }}")'
+              >
+                {% for tag in blog.tags %}
+            <button>#{{ tag }}</button>
+          {% endfor %}
+                <h2>{{ blog.title }}</h2>
+                <div class="section_6-last">
+                  <div class="section_6-last_text">
+                    <h6>{{ blog.published_at | date: '%B %d, %Y' }}</h6>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      {% endpaginate %}
+    </div>
+    <div class="section_6-last_part">
+      <img src="./image/Soft Star.png" alt="">
+      <div class="section_6-last_btn">
+        <a class="p_btn quizOpen" >{{ section.settings.call_to_action }}</a>
+      </div>
+      <div class="section_6-last-image">
+        <img src="./image/laststar.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+    .section_6-card_image_frst {
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 318px 0 40px 10px;
+    border-radius: 30px;
+  }
+    .section_6-card_image_scnd {
+     background-image: url("{{ section.settings.bg-image2 | image_url }}");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 318px 0 40px 10px;
+    border-radius: 30px;
+    margin-top: 150px;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Blogs",
+  "settings": [
+    {
+      "type": "blog",
+      "id": "blogs",
+      "label": "Blog"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    },
+    {
+      "label": "text_1",
+      "id": "text_1",
+      "type": "text"
+    },
+    {
+      "label": "text_2",
+      "id": "text_2",
+      "type": "text"
+    },
+    {
+      "label": "text_3",
+      "id": "text_3",
+      "type": "text"
+    },
+    {
+      "label": "call to action read more",
+      "id": "read_posts",
+      "type": "text"
+    },
+    {
+      "label": "call to action",
+      "id": "call_to_action",
+      "type": "text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Blogs"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

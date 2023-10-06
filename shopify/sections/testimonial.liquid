@@ -1,0 +1,134 @@
+<section>
+  <div class="testimonialsec secspacing">
+    <div class="wrapper">
+      <div class="testimonialmain">
+        <div class="testih">
+          <h1>{{ section.settings.title1 }}</h1>
+        </div>
+        <h2>{{ section.settings.title2 }}</h2>
+        <p>{{ section.settings.para1 }}</p>
+        <div class="ratingnav">
+          <h4>{{ section.settings.title3 }}</h4>
+          <img src="{{ section.settings.image1 | image_url }}" alt="">
+          <h4>{{ section.settings.title4 }}</h4>
+          <img src="{{ section.settings.image2 | image_url }}" alt="">
+        </div>
+      </div>
+      <div class="testimonialbox">
+        <div class="testimonial1 test22">
+          <p>{{ section.settings.para2 }}</p>
+          <div class="call">
+            <h4>{{ section.settings.title5 }}</h4>
+            <img src="{{ section.settings.image3 | image_url }}" alt="">
+          </div>
+          <img class="test_img" src="{{ section.settings.image5 | image_url }}" alt="">
+        </div>
+        <div class="testimonial1 testi2">
+          <p>{{ section.settings.para3 }}</p>
+          <div class="call right">
+            <h4>{{ section.settings.title6 }}</h4>
+            <img src="{{ section.settings.image4 | image_url }}" alt="">
+          </div>
+          <img class="test_img" src="{{ section.settings.image6 | image_url }}" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonialbtn">
+      <a href="{{ section.settings.link }}">Try For Franky</a>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "testimonial",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title1",
+      "label": "title1"
+    },
+    {
+      "type": "text",
+      "id": "title2",
+      "label": "title2"
+    },
+    {
+      "type": "richtext",
+      "id": "para1",
+      "label": "para1"
+    },
+    {
+      "type": "text",
+      "id": "title3",
+      "label": "title3"
+    },
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "image1"
+    },
+    {
+      "type": "text",
+      "id": "title4",
+      "label": "title4"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "image2"
+    },
+    {
+      "type": "richtext",
+      "id": "para2",
+      "label": "para2"
+    },
+    {
+      "type": "text",
+      "id": "title5",
+      "label": "title5"
+    },
+    {
+      "type": "image_picker",
+      "id": "image3",
+      "label": "image3"
+    },
+    {
+      "type": "richtext",
+      "id": "para3",
+      "label": "para3"
+    },
+    {
+      "type": "text",
+      "id": "title6",
+      "label": "title6"
+    },
+    {
+      "type": "image_picker",
+      "id": "image4",
+      "label": "image4"
+    },
+    {
+      "type": "image_picker",
+      "id": "image5",
+      "label": "image5"
+    },
+    {
+      "type": "image_picker",
+      "id": "image6",
+      "label": "image6"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "testimonial"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,268 @@
+{
+  "sections": {
+    "02ef7ed8-ab39-4d20-88b8-99bb39fabc2b": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17965264601364__02ef7ed8-ab39-4d20-88b8-99bb39fabc2b-1680532088bbc77d29-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nutritious and sustainable dog food",
+            "heading_size": "h0"
+          }
+        },
+        "cff80fd5-8edc-4cfb-86e9-4d3c2f9ea27f": {
+          "type": "text",
+          "settings": {
+            "text": "Improve your carbon pawprint, one delicious meal at a time.",
+            "text_style": "body"
+          }
+        },
+        "template--17965264601364__02ef7ed8-ab39-4d20-88b8-99bb39fabc2b-1680532088bbc77d29-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Try now",
+            "button_link_1": "/pages/our-product#quizz",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17965264601364__02ef7ed8-ab39-4d20-88b8-99bb39fabc2b-1680532088bbc77d29-0",
+        "cff80fd5-8edc-4cfb-86e9-4d3c2f9ea27f",
+        "template--17965264601364__02ef7ed8-ab39-4d20-88b8-99bb39fabc2b-1680532088bbc77d29-2"
+      ],
+      "settings": {
+        "image_computer": "shopify://shop_images/computer-3.0.png",
+        "image_tablet": "shopify://shop_images/bg-en-tablet-2.0.png",
+        "image_phone": "shopify://shop_images/bg-en-2.0-phonz.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "logo_1": "shopify://shop_images/logo_1_403a8af2-d0a8-43bf-8d0b-42d7ec100d2e.png",
+        "logo_2": "shopify://shop_images/logo_2_0c527c31-6a2a-4477-9572-d5790dc524a2.png",
+        "logo_3": "shopify://shop_images/logo_3_d2675e3d-d09a-4c7c-ad7e-2dc21431d613.png",
+        "txt_1": "",
+        "txt_2": "",
+        "txt_3": "Made in Belgium 🇧🇪",
+        "txt_4": "Hypoallergenic",
+        "txt_5": "Insect proteins",
+        "show_text_below": true
+      }
+    },
+    "d490912c-3294-42aa-b636-8d117cae6e39": {
+      "type": "section_1",
+      "disabled": true,
+      "settings": {
+        "image_2": "shopify://shop_images/Group_425.png",
+        "html": "",
+        "description": "<p>Dried insect protein (22% mealworm), dried potato flakes, peas, rape seed oil, dried pumpkin, dried brewer’s yeast, minerals, dried apples, dried carrots</p>",
+        "logo_1": "shopify://shop_images/logo_1_cd5b617e-aa3e-4b88-b7ee-e43dc838a76d.png",
+        "logo_2": "shopify://shop_images/logo_2_7508bf35-738b-425d-b1ae-acad06dafbec.png",
+        "logo_3": "shopify://shop_images/logo_3.png",
+        "txt_header": "",
+        "txt_1": "Sustainable Dogfood made with love",
+        "txt_2": "(by our planet)",
+        "txt_3": "Local products",
+        "txt_4": "et approved",
+        "txt_5": "Insect-based",
+        "link": "/pages/our-product#quizz",
+        "call_to_action": ""
+      }
+    },
+    "1c94bda0-a6db-406a-a243-b3b2785aa770": {
+      "type": "section_2",
+      "blocks": {
+        "60d5b374-2534-49de-989c-d62670c50684": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-06-28_at_16.51.18.png",
+            "title": "Lola",
+            "subtitle": "1,01€ / day"
+          }
+        },
+        "a0515614-a1ca-4e6e-9e3f-1995726ab203": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-06-28_at_16.52.52.png",
+            "title": "Ula",
+            "subtitle": "1,90€ / day"
+          }
+        },
+        "99bd8358-6151-48fc-8ce7-8a61b15a9c63": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-06-28_at_17.23.25.png",
+            "title": "Rudolphe",
+            "subtitle": "1,03€ / day"
+          }
+        },
+        "4c1adb40-be22-4faf-8cfd-35e400896e13": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-06-28_at_17.24.17.png",
+            "title": "Vanille",
+            "subtitle": "0,39€ / day"
+          }
+        },
+        "713ae06f-a19e-4501-9de1-6b0c40da30c8": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-06-29_at_12.56.35.png",
+            "title": "Charlie",
+            "subtitle": "1,63€ / day"
+          }
+        },
+        "80c8e124-c032-4344-bc06-ea1cc53314dc": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-06-28_at_17.26.54.png",
+            "title": "Boris",
+            "subtitle": "2,12€ / day"
+          }
+        },
+        "9789d991-8898-4f36-945c-d54d03eec0bc": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-06-28_at_17.27.19.png",
+            "title": "Sergent Nelson",
+            "subtitle": "1,99€ / day"
+          }
+        }
+      },
+      "block_order": [
+        "60d5b374-2534-49de-989c-d62670c50684",
+        "a0515614-a1ca-4e6e-9e3f-1995726ab203",
+        "99bd8358-6151-48fc-8ce7-8a61b15a9c63",
+        "4c1adb40-be22-4faf-8cfd-35e400896e13",
+        "713ae06f-a19e-4501-9de1-6b0c40da30c8",
+        "80c8e124-c032-4344-bc06-ea1cc53314dc",
+        "9789d991-8898-4f36-945c-d54d03eec0bc"
+      ],
+      "custom_css": [
+        ".subtitle {line-height: 55px;}"
+      ],
+      "settings": {
+        "text_carousel": "Some of our happy customers",
+        "image": "shopify://shop_images/Vector_3.png",
+        "imageupper": "shopify://shop_images/bgZinc.png",
+        "type_1-image": "shopify://shop_images/type_1.png",
+        "type_2-image": "shopify://shop_images/type_2.png",
+        "type_3-image": "shopify://shop_images/type_3.png",
+        "type_4-image": "shopify://shop_images/type_4.png",
+        "text_1": "Why For Franky ?",
+        "text_2": "For Franky is more than your dog’s average meal. We’ll provide a meat and grain free alternative. Check out our health benefits below !",
+        "text_3": "Our grain and meat free formula significantly reduces the risks of an allergic reaction.",
+        "text_4": "Plant based Omega 3",
+        "text_5": "Our Omega 3 is sourced from natural algae oil, a superfood with plenty of health benefits: improved skin & coat, cardiovascular health and reduced joint inflammation.",
+        "text_6": "Rich in Protein",
+        "text_7": "Rich in insect proteins, healthy fats and amino acids. A healthy and sustainable alternative to fish and meat.",
+        "text_8": "Easy to Digest",
+        "text_9": "Our mealworms are an excellent source of highly digestible protein. Our algae oil provides Omega 3 and DHA, both of which have a proven role in maintaining and restoring intestinal balance.",
+        "link_tryNow": "Try now",
+        "link_1": "/pages/our-product#quizz",
+        "link_learnMore": "Learn more",
+        "link_2": "/pages/our-product"
+      }
+    },
+    "000694ae-e761-4211-b548-27e5ef36b1ec": {
+      "type": "section_3",
+      "disabled": true,
+      "custom_css": [
+        "h5 {margin: 15px 0;}",
+        "h1 {margin: 15px 0;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/Vector_5_2889fd32-6ee6-4ee2-920d-a71bfa882cf7.png",
+        "image_2": "shopify://shop_images/section_3-tick.png",
+        "image_3": "shopify://shop_images/section_3-tick.png",
+        "image_4": "shopify://shop_images/section_3-tick.png",
+        "text_1": "How does it work",
+        "text_2": "Subscription based. Worry free.",
+        "text_3": "Our monthly subscriptions are tailored to you and your dog’s needs. Want to try out first? No worries, use our calculator so we know what to send you! Pay only €4,99 delivery and receive up to two weeks of our dog food for free! Check down below how it works!",
+        "text_4": "“Answer 10 simple questions online”",
+        "text_5": "“We calculate your dog’s daily needs”.",
+        "text_6": "“Get notified when we are live and subscribe to our monthly deliveries”.",
+        "link_1": "shopify://pages/subscription"
+      }
+    },
+    "330693c2-5a9d-4b1d-85f9-632a3853b9dd": {
+      "type": "section_4",
+      "custom_css": [
+        "h4 {margin: 0; color: #fff; font-size: 22px; font-weight: bolder;}",
+        "h6 {margin: 0; color: #fff;}",
+        "h2 {color: #fff; margin: 0;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/cta_57cb2bad-1237-43c9-bdb1-db4ce9919deb.png",
+        "image_2": "shopify://shop_images/Soft_Star.png",
+        "image_3": "shopify://shop_images/Soft_Star.png",
+        "text_1": "Insect vs meat  based dogfood",
+        "text_2": "Learn about sustainability",
+        "value_one": "100x",
+        "text_one": "less land used",
+        "value_two": "4x",
+        "text_two": "less feed",
+        "value_three": "2850x",
+        "text_three": "less co2 waste",
+        "link_sust": "shopify://pages/sustainability"
+      }
+    },
+    "d301bd3c-62ab-4f6c-bb61-2e44c86bd6d0": {
+      "type": "section_5",
+      "settings": {
+        "image_1": "shopify://shop_images/Group_458.png",
+        "image_2": "shopify://shop_images/upper-arrow.png",
+        "image_3": "shopify://shop_images/pc.png",
+        "image_4": "shopify://shop_images/calculate_d5accbd0-849a-4ac6-a4bd-50b6c57ecd3b.png",
+        "image_5": "shopify://shop_images/truck.png",
+        "image_6": "shopify://shop_images/lower-arrow.png",
+        "text_1": "How does it work",
+        "text_2": "Subscription based. Worry free.",
+        "text_3": "Our monthly subscriptions are tailored to you and your dog’s needs. Want to try out first? No worries, use our calculator so we know what to send you! Pay only €5,99 delivery and receive up to two weeks of our dog food for free! Check down below how it works!",
+        "call_to_action": "Try For Franky",
+        "text_4": "“Answer 8 simple questions online”.",
+        "text_5": "",
+        "text_6": "“We calculate your dog’s daily needs”.",
+        "text_7": "",
+        "text_8": "Get notified when we are live and subscribe to our monthly deliveries",
+        "text_9": "",
+        "call_to_action_two": "Try For Franky",
+        "link_1": "/pages/our-product#quizz"
+      }
+    },
+    "2c3d8b04-9af2-4bba-b00f-09ec78fc3cf1": {
+      "type": "section_6",
+      "custom_css": [
+        "h5 {color: #fff; margin: 0;}",
+        "h6 {color: #fff; margin: 0;}",
+        "h2 {margin: 0 auto;}"
+      ],
+      "settings": {
+        "blogs": "news",
+        "link": "shopify://blogs/news",
+        "text_1": "Keep up to date with our newsfeed",
+        "text_2": "Stay in the loop ! We will send you an email once in a while with information catered to your dogs need & wellbeing, special offers and invitations to exclusive events!",
+        "text_3": "#",
+        "read_posts": "Read all posts",
+        "call_to_action": "Try For Franky"
+      }
+    }
+  },
+  "order": [
+    "02ef7ed8-ab39-4d20-88b8-99bb39fabc2b",
+    "d490912c-3294-42aa-b636-8d117cae6e39",
+    "1c94bda0-a6db-406a-a243-b3b2785aa770",
+    "000694ae-e761-4211-b548-27e5ef36b1ec",
+    "330693c2-5a9d-4b1d-85f9-632a3853b9dd",
+    "d301bd3c-62ab-4f6c-bb61-2e44c86bd6d0",
+    "2c3d8b04-9af2-4bba-b00f-09ec78fc3cf1"
+  ]
+}

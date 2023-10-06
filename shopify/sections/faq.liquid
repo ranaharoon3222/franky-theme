@@ -1,0 +1,49 @@
+
+<section>
+  <div style="background-image: url(' {% if section.settings.image1 != blank %} {{ section.settings.image1 | image_url }}  {% endif %} ');" class="faqsec">
+        <div class="wrapper">
+            <div class="faqmain">
+                <div class="faqh">
+                    <h1>{{ section.settings.title1 }}</h1>
+                </div>
+                <h2>{{ section.settings.title2 }}</h2>
+                <p>{{ section.settings.para1 }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+{% schema %}
+{
+  "name": "faq",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title1",
+      "label": "title1"
+    },
+    {
+      "type": "text",
+      "id": "title2",
+      "label": "title2"
+    },
+    {
+      "type": "richtext",
+      "id": "para1",
+      "label": "para1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "bg"
+    }
+  ],
+  "presets": [
+    {
+      "name": "faq"
+    }
+  ]
+}
+{% endschema %}

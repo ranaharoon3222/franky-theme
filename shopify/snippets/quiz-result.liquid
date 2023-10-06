@@ -1,0 +1,155 @@
+<link
+  href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css"
+  rel="stylesheet"
+>
+
+<div class="">
+  <button
+    class="back-to-quiz"
+    type="button"
+    @click="backToQuiz()"
+    v-html="$t('message.back_to_quiz')"
+  ></button>
+
+  <div class="wrapper">
+    <div class="image">
+      <img
+        :src="dog?.dogImage || 'https://for-franky-2023.myshopify.com/cdn/shop/files/Group_1.png'"
+        alt="Dog Image"
+      >
+
+      <p class="round-day" v-text="`€${dog.cart.dailyPrice?.toFixed(2)}/day`"></p>
+    </div>
+
+    <div class="dog_title">
+      <h1 v-text="`We Calculated ${dog.dogName} daily needs:`"></h1>
+      <h1 v-text="`${ dog.needs.dailyAllowance > 500 ? '426' : dog.needs.dailyAllowance}g/day`"></h1>
+      <h2 class="text-black" v-text="$t('message.result_offer')"></h2>
+      <p class="options" v-text="$t('message.result_options')"></p>
+    </div>
+
+    <div class="grid-result">
+      <div class="or-yy">
+        <div class="or or--y" aria-role="presentation">Or</div>
+      </div>
+
+      <div class="sample-col">
+        <h2 v-text="$t('message.result_sample')"></h2>
+        <p v-text="$t('message.result_sample_para')"></p>
+
+        <img
+          src="https://cdn.shopify.com/s/files/1/0724/4270/8244/files/forfranky-26_1_9463c1af-7904-481b-b248-78fd9c6fe66f.jpg"
+          alt="Sample Kit"
+          loading="lazy"
+          width=""
+          height=""
+        >
+
+        <div>
+          <button
+            type="button"
+            class="btn primary-btn success-action"
+            @click="addToCart({ id:dog.samples.sampleId, quantity:1, selling_plan:'', name: dog.dogName })"
+            :disabled="alreadyCart.find(item => item.name == dog.dogName) || postal_code_not_found !== '' "
+          >
+            {% raw %}
+              <span v-text="$t('message.postal_code_not_found')" v-if="postal_code_not_found"></span>
+              <span v-text="$t('message.result_adding_cart')" v-else-if="loading"></span>
+              <span v-text="$t('message.result_already_cart')" v-else-if="alreadyCart.find(item => item.product.variant_id == dog.samples.sampleId && item.name == dog.dogName)"></span>
+              <span v-text="$t('message.result_sample_to_cart', { msg : dog.samples.closestSize  })" v-else></span>
+            {% endraw %}
+          </button>
+        </div>
+      </div>
+
+      <div class="subs-col">
+        <h2 v-text="$t('message.result_personalized')"></h2>
+
+        <div class="info-row-quiz-result">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0724/4270/8244/files/truck_ae6e7757-4366-4579-94c0-0fa89632eb57.png?v=1677563858"
+            alt="Delivery Frequency Icon"
+            class="icon-quiz-result"
+            loading="lazy"
+            width=""
+            height=""
+          >
+          <p class="sucess-detail-quiz-result" v-text="$t('message.result_frequency')"></p>
+        </div>
+        <div class="info-row-quiz-result">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0724/4270/8244/files/Group_461.png?v=1691420070"
+            alt="Quantity Icon"
+            class="icon-quiz-result"
+            loading="lazy"
+            width=""
+            height=""
+          >
+          <p class="sucess-detail-quiz-result">
+            {% raw %}
+              {{ $t('message.result_quantity') }} {{ dog.needs.monthlyAllowance > 12800 ? '12.8' : dog.needs.monthlyAllowance / 1000 }}kg  {{ $t('message.result_kibbles') }}* = ({{ dog.needs.dailyAllowance > 500 ? '426' : dog.needs.dailyAllowance }}g/day).
+            {% endraw %}
+          </p>
+        </div>
+        <div class="info-row-quiz-result">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0724/4270/8244/files/calculate_19efd556-7426-4aa3-9821-bc39e2e099d7.png?v=1678791464"
+            alt="Body Score Icon"
+            class="icon-quiz-result"
+            loading="lazy"
+            width=""
+            height=""
+          >
+          <p class="sucess-detail-quiz-result">
+            {% raw %}
+              {{ $t('message.result_ideal_weight') }} {{ dog.needs.idealBodyWeight?.toFixed(2) }}kg
+            {% endraw %}
+          </p>
+        </div>
+        <div class="info-row-quiz-result">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0724/4270/8244/files/hpPng.png?v=1681732081"
+            alt="Price per Month Icon"
+            class="icon-quiz-result"
+            loading="lazy"
+            width=""
+            height=""
+          >
+          <p class="sucess-detail-quiz-result">
+            {% raw %}
+              {{ $t('message.result_price_per_month') }} {{ dog.cart.adjustedPrice?.toFixed(2) }}€
+            {% endraw %}
+          </p>
+        </div>
+
+        <button
+          type="button"
+          class="btn primary-btn success-action subs-btn"
+          :disabled="alreadyCart.find(item => item.name == dog.dogName ) ||  postal_code_not_found !== '' "
+          @click="addToCart({ id:dog.cart.currentVariantId, quantity:dog.cart.currentQuantity, selling_plan:dog.cart.currentPlan, name: dog.dogName})"
+        >
+          {% raw %}
+            <span v-text="$t('message.postal_code_not_found')" v-if="postal_code_not_found"></span>
+            <span v-else-if="loading">
+              {{ $t('message.result_adding_cart') }}
+            </span>
+            <span v-else-if="alreadyCart.find(item => item.product.variant_id == dog.cart.currentVariantId && item.name == dog.dogName)">
+              {{ $t('message.result_already_cart') }}
+            </span>
+            <span v-else="!loading">
+              {{ $t('message.result_subs_to_cart') }}
+            </span>
+          {% endraw %}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="checkout_btn">
+    <a
+      href="{{ routes.cart_url }}"
+      class="btn"
+      v-text="$t('message.checkout_btn')"
+    ></a>
+  </div>
+</div>

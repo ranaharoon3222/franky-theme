@@ -1,0 +1,173 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "676a449d-d041-4f72-91d0-cd61dee3a46d": {
+      "type": "about_section_1",
+      "custom_css": [
+        "p {margin: 0;}",
+        ".aboutSectionPara {padding: 10px 0 15px 0;}"
+      ],
+      "settings": {
+        "text_1": "About",
+        "text_2": "Welcome in the world of For Franky",
+        "text_3": "Find out about us and why you should be changing today to insect petfood for you and your dog’s sake! ",
+        "text_4": "Try now"
+      }
+    },
+    "9710fc9f-5f8c-4f8a-9729-8240a1a975b8": {
+      "type": "about_section_2",
+      "custom_css": [
+        "p {margin: 0;}",
+        "ul {padding: 0;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/preFooter.png",
+        "image_2": "shopify://shop_images/Intersect.png",
+        "image_3": "shopify://shop_images/Group_398.png",
+        "image_4": "shopify://shop_images/section_3-tick.png",
+        "image_5": "shopify://shop_images/section_3-tick.png",
+        "image_6": "shopify://shop_images/section_3-tick.png",
+        "image_7": "shopify://shop_images/Group_398_ee2909cb-b146-4745-bb5e-43e792b3b1e8.png",
+        "text_3": "Try For Franky",
+        "text_4": "About us",
+        "text_5": "We care about our planet",
+        "text_6": "",
+        "text_7": "Sustainable super foods and local products",
+        "text_8": "Waste reduction through circular reuse of packaging ",
+        "text_9": "Ecological delivery. ",
+        "text_10": "Try now"
+      }
+    },
+    "b95f2713-f0fb-4504-bc66-4ce8753fe8b2": {
+      "type": "faqhead",
+      "disabled": true,
+      "settings": {
+        "text_1": "FAQ",
+        "text_2": "FAQ",
+        "text_3": ""
+      }
+    },
+    "29350a12-95f0-4035-8b39-47e266a62bd3": {
+      "type": "collapsible-content",
+      "disabled": true,
+      "blocks": {
+        "template--18000900194580__29350a12-95f0-4035-8b39-47e266a62bd3-1678266731b99de582-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do you make holy water?",
+            "icon": "none",
+            "row_content": "<p>You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat. Boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat. </p>",
+            "page": ""
+          }
+        },
+        "template--18000900194580__29350a12-95f0-4035-8b39-47e266a62bd3-1678266731b99de582-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do you make holy water?",
+            "icon": "none",
+            "row_content": "<p>You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat. Boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat. </p>",
+            "page": ""
+          }
+        },
+        "template--18000900194580__29350a12-95f0-4035-8b39-47e266a62bd3-1678266731b99de582-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do you make holy water?",
+            "icon": "none",
+            "row_content": "<p>You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat. Boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat. </p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18000900194580__29350a12-95f0-4035-8b39-47e266a62bd3-1678266731b99de582-0",
+        "template--18000900194580__29350a12-95f0-4035-8b39-47e266a62bd3-1678266731b99de582-1",
+        "template--18000900194580__29350a12-95f0-4035-8b39-47e266a62bd3-1678266731b99de582-2"
+      ],
+      "custom_css": [
+        "div {background: #fefaf7;}",
+        "h2 {color: #5ec3b2;}"
+      ],
+      "settings": {
+        "class": "about_faq",
+        "caption": "Info over General Inquiries",
+        "heading": "General Inquiries",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-2",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1b39fd98-dfa9-4761-b8af-91d4f360e735": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--18000900194580__1b39fd98-dfa9-4761-b8af-91d4f360e735-1678267023f3c22ee9-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "View full FAQ",
+            "button_link": "shopify://pages/faq",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18000900194580__1b39fd98-dfa9-4761-b8af-91d4f360e735-1678267023f3c22ee9-2"
+      ],
+      "custom_css": [
+        "a {background: #f48f86; border: transparent; outline: none; border-radius: 20px; font-size: 20px; font-weight: 400; outline: none; font-family: \"boldenvan_demoregular\";}",
+        "a:focus {outline: none;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ccfd1a4c-e49a-4a7c-99ab-1bbf4ea074d4": {
+      "type": "section_6",
+      "custom_css": [
+        "h5 {color: #fff; margin: 0;}",
+        "h6 {color: #fff; margin: 0;}",
+        "h2 {margin: 0 auto;}"
+      ],
+      "settings": {
+        "blogs": "news",
+        "link": "shopify://blogs/news",
+        "text_1": "Keep up to date with our newsfeed",
+        "text_2": "",
+        "text_3": "#HEALTH",
+        "read_posts": "Read all posts",
+        "call_to_action": "Try For Franky"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "676a449d-d041-4f72-91d0-cd61dee3a46d",
+    "9710fc9f-5f8c-4f8a-9729-8240a1a975b8",
+    "b95f2713-f0fb-4504-bc66-4ce8753fe8b2",
+    "29350a12-95f0-4035-8b39-47e266a62bd3",
+    "1b39fd98-dfa9-4761-b8af-91d4f360e735",
+    "ccfd1a4c-e49a-4a7c-99ab-1bbf4ea074d4"
+  ]
+}

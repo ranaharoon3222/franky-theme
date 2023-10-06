@@ -1,0 +1,115 @@
+<div class="section_4">
+      <div class="section_4-main">
+        <div class="cta wrapperr">
+          <div class="cta_1">
+            <h2>{{ section.settings.text_1 }}</h2>
+          </div>
+          <div class="cta_2">
+            <img src="{{ section.settings.image_1 | image_url }}" alt="" />
+{% if section.settings.image_2 != blank %}
+            <div class="cta_2-data">
+              <div class="">
+                <h4>{{ section.settings.value_one }}</h4>
+                <h6>{{ section.settings.text_one }}</h6>
+              </div>
+              <div class=""><img src="{{ section.settings.image_2 | image_url }}" alt="" /></div>
+              <div class="">
+                <h4>{{ section.settings.value_two }}</h4>
+                <h6>{{ section.settings.text_two }}</h6>
+              </div>
+              <div class=""><img src={{ section.settings.image_3 | image_url }}" alt="" /></div>
+              <div class="">
+                <h4>{{ section.settings.value_three }}</h4>
+                <h6>{{ section.settings.text_three }}</h6>
+              </div>
+            </div>
+            {% endif %}
+          </div>
+          <div class="cta_3">
+            <a href="{{ section.settings.link_sust }}" class="section_2-button-2"><h6>{{ section.settings.text_2 }}</h6></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+{% schema %}
+{
+  "name": "section_4",
+  "settings": [
+    {
+      "label": "image_1",
+      "id": "image_1",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_2",
+      "id": "image_2",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_3",
+      "id": "image_3",
+      "type": "image_picker"
+    },
+    {
+      "label": "text_1",
+      "id": "text_1",
+      "type": "text"
+    },
+    {
+      "label": "text_2",
+      "id": "text_2",
+      "type": "text"
+    },
+    {
+      "label": "value one",
+      "id": "value_one",
+      "type": "text"
+    },
+    {
+      "label": "text one",
+      "id": "text_one",
+      "type": "text"
+    },
+    {
+      "label": "value two",
+      "id": "value_two",
+      "type": "text"
+    },
+    {
+      "label": "text two",
+      "id": "text_two",
+      "type": "text"
+    },
+    {
+      "label": "value three",
+      "id": "value_three",
+      "type": "text"
+    },
+    {
+      "label": "text three",
+      "id": "text_three",
+      "type": "text"
+    },
+    {
+      "label": "link_sust",
+      "id": "link_sust",
+      "type": "url"
+    }
+  ],
+  "presets": [
+    {
+      "name": "section_4"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

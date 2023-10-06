@@ -1,0 +1,74 @@
+<div class="stillQuession">
+  <div class="still-container pure-g">
+    <div class="still-frst pure-u-1 pure-u-md-8-24">
+    </div>
+    <div class="still-scnd pure-u-1 pure-u-md-8-24">
+      <div class="still-image">
+        <img src="{{ section.settings.image_2 | image_url }}" alt="">
+      </div>
+      <div class="still-title">
+        <h1>{{ section.settings.text_1 }}</h1>
+      </div>
+      <div class="still-desc">
+        <p>
+          {{ section.settings.text_2 }}
+        </p>
+      </div>
+      <div class="still-btn">
+        <a class="p_btn_2" href="/pages/our-product#quizz/our">{{ section.settings.text_3 }}</a>
+      </div>
+    </div>
+    <div class="still-thrd pure-u-1 pure-u-md-8-24">
+      <img src="{{ section.settings.image_3 | image_url }}" alt="">
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "faq_section",
+  "settings": [
+    {
+      "label": "image_1",
+      "id": "image_1",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_2",
+      "id": "image_2",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_3",
+      "id": "image_3",
+      "type": "image_picker"
+    },
+    {
+      "label": "text_1",
+      "id": "text_1",
+      "type": "text"
+    },
+    {
+      "label": "text_2",
+      "id": "text_2",
+      "type": "text"
+    },
+    {
+      "label": "text_3",
+      "id": "text_3",
+      "type": "text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "faq_section"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

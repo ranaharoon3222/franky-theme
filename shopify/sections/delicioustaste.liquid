@@ -1,0 +1,121 @@
+
+
+<section>
+  <div style="background-image: url('{{ section.settings.image5 | image_url }}');" class="delicioustastesec secspacing">
+        <div class="wrapper">
+            <div class="deliciousbox">
+                <div class="delicious1">
+                    <img loading="lazy" src="{{ section.settings.image1 | image_url }}" alt="Ingredients floating around a dog">
+                </div>
+                <div class="delicious2">
+                    <div class="whath">
+                        <h1>{{ section.settings.title1 }}</h1>
+                    </div>
+                    <h1 class="dogfood" >{{ section.settings.title2 }}</h1>
+
+                    <div class="delicioustext">
+                        <div class="listitembox">
+                            <div class="listitems">
+                                <img src="{{ section.settings.image2 | image_url }}" alt="">
+                                <p>{{ section.settings.para1 }}</p>
+                            </div>
+                            <div class="listitems">
+                                <img src="{{ section.settings.image3 | image_url }}" alt="">
+                                <p>{{ section.settings.para2 }}</p>
+                            </div>
+                            <div class="listitems">
+                                <img src="{{ section.settings.image4 | image_url }}" alt="">
+                                <p>{{ section.settings.para3 }}</p>
+                            </div>
+                        </div>
+                       
+                        <div class="para"> 
+                        <p  >{{ section.settings.para4 }}</p>
+                          </div>
+                        <div class="deliciousbtn">
+                          <a class="p_btn_2 quizOpen">{{ section.settings.call_to_action }}</a>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+  
+</section>
+
+
+
+{% schema %}
+{
+  "name": "delicioustaste",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title1",
+      "label": "title1"
+    },
+    {
+      "type": "text",
+      "id": "title2",
+      "label": "title2"
+    },
+    {
+      "type": "richtext",
+      "id": "para1",
+      "label": "list"
+    },
+    {
+      "type": "richtext",
+      "id": "para2",
+      "label": "list"
+    },
+    {
+      "type": "richtext",
+      "id": "para3",
+      "label": "list"
+    },
+    {
+      "type": "richtext",
+      "id": "para4",
+      "label": "paragraph"
+    },
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "bannerimage"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "listicon"
+    },
+    {
+      "type": "image_picker",
+      "id": "image3",
+      "label": "listicon"
+    },
+    {
+      "type": "image_picker",
+      "id": "image4",
+      "label": "listicon"
+    },
+    {
+      "type": "image_picker",
+      "id": "image5",
+      "label": "backgroundimage"
+    },
+    {
+      "type": "text",
+      "id": "call_to_action",
+      "label": "call to action"
+    }
+  ],
+  "presets": [
+    {
+      "name": "delicioustaste"
+    }
+  ]
+}
+{% endschema %}

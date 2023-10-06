@@ -1,0 +1,275 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "0d86a4ae-f131-4599-a369-5aa1ebb4db66": {
+      "type": "section_1",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image_2": "shopify://shop_images/Group_448.png",
+        "html": "",
+        "description": "<p>Our commitment to less waste doesn’t just stop with a personalized subscription. We’ll use reusable buckets to deliver our kibbles to your doorstep, that we’ll collect upon next delivery.  Let’s work together on this! </p>",
+        "txt_header": "",
+        "txt_1": "Reduce your carbon pawprint with For Franky",
+        "txt_2": "",
+        "txt_3": "",
+        "txt_4": "",
+        "txt_5": "",
+        "link": "/pages/our-product#quizz",
+        "call_to_action": "Try now"
+      }
+    },
+    "f7d6e9bd-13c6-4835-addf-36d0736895d7": {
+      "type": "abilty_section_1",
+      "disabled": true,
+      "settings": {
+        "custom_bg": "shopify://shop_images/Group_414.png",
+        "image_1": "shopify://shop_images/Vector.png",
+        "image_2": "shopify://shop_images/Vector_1.png",
+        "image_3": "shopify://shop_images/Vector_2.png",
+        "text_1": "Our Proteins",
+        "text_2": "Insect protein’s Health benefits",
+        "text_3": "Clean and High-Quality Proteins ",
+        "text_4": "Our proteins come from dried mealworms that are cleaner and healthier than your average meat or fish protein. Cleaner for your dog and cleaner for the planet. That's one hell of a bargain!",
+        "text_5": "Full of amino and fatty acids, great for intestinal health",
+        "text_6": "Insect proteins are full of fatty acids, which nourishes intestinal health, generating beneficial gut bacteria. ",
+        "text_7": "Great digestibility",
+        "text_8": "Insect proteins have greater digestibility than their meat alternatives, providing better stool quality and nutritional absorption. ",
+        "text_9": "Try For Franky now"
+      }
+    },
+    "c7b8f3c0-af54-4301-bf10-9ee133779cad": {
+      "type": "abilty_section_2",
+      "custom_css": [
+        ".button {background: none;}",
+        ".button::after {display: none;}",
+        ".title {margin: 0 auto;}",
+        "h6 {margin: 0; font-size: 36px;}",
+        "h5 {margin: 0; font-size: 30px;}",
+        "p {margin: 0 auto;}",
+        "h5 {margin: 0;}"
+      ],
+      "settings": {
+        "logo_1": "shopify://shop_images/logo_1_a9879faa-0531-4b25-bfa9-76eb80bed4ed.png",
+        "logo_2": "shopify://shop_images/logo_2.png",
+        "logo_3": "shopify://shop_images/logo-3.png",
+        "image_1": "shopify://shop_images/Group_401_1.png",
+        "image_2": "shopify://shop_images/Group_400_1.png",
+        "image_3": "shopify://shop_images/forFrankyWater.png",
+        "text_1": "Facts",
+        "text_2": "Facts and figures",
+        "text_3": "We have created a summary below to underline the key environmental benefits of insect farming compared to conventional livestock farming. Showing how much of each animal is edible (in%) and how much food, land & water is required to produce 1kg of meat.",
+        "text_4": "Land used",
+        "text_5": "M2 / 100gr",
+        "text_6": "",
+        "text_7": "Typical dogfood",
+        "text_8": "164m2",
+        "text_9": "Beef",
+        "text_10": "11m2",
+        "text_11": "Pig",
+        "text_12": "7,1m2",
+        "text_13": "Poultry",
+        "text_14": "For Franky",
+        "text_15": "1,8m2",
+        "text_16": "Insect <br> Source:  <a href=\"https://www.vitafoodsinsights.com/speciality/innovations-insect-protein\" target=\"_blank\"> https://www.vitafoodsinsights.com/speciality/innovations-insect-protein </a> <br> (Poore and Nemecek, 2018; Santo et al., 2020)",
+        "text_17": "Feed used",
+        "text_18": "Kg / Kg of proteins",
+        "text_19": "",
+        "text_20": "Typical dogfood",
+        "text_21": "25kg",
+        "text_22": "Beef",
+        "text_23": "6,4kg",
+        "text_24": "Pig",
+        "text_25": "3,3kg",
+        "text_26": "Poultry",
+        "text_27": "For Franky",
+        "text_28": "2,1kg",
+        "text_29": "Insect <br>  Source:  <a href=\"https://www.sciencedirect.com/science/article/pii/S0921344919300515#fig0010%C2%A0\" target=\"_blank\"> https://www.sciencedirect.com/science/article/pii</a> <br> (Smetana et al., 2019)",
+        "text_30": "Water used",
+        "text_31": "L / 100g of proteins",
+        "text_32": "",
+        "text_33": "Typical dogfood",
+        "text_34": "580 L",
+        "text_35": "Pig",
+        "text_36": "385 L",
+        "text_37": "Poultry",
+        "text_38": "290 L",
+        "text_39": "Beef",
+        "text_40": "For Franky",
+        "text_41": "90l",
+        "text_42": "Insect <br>  Source:  <a href=\"https://www.wageningenacademic.com/doi/10.3920/JIFF2016.0029%C2%A0\" target=\"_blank\"> https://www.wageningenacademic.com/doi/10.3920   </a> <br> (Joensuu and Silvenius, 2017) "
+      }
+    },
+    "a45154c9-5e9b-49c2-8220-f3935443c8e5": {
+      "type": "section_4",
+      "custom_css": [
+        "h4 {margin: 0; color: #fff; font-size: 22px; font-weight: bolder;}",
+        "h6 {margin: 0; color: #fff;}",
+        "h2 {color: #fff; margin: 0; max-width: 500px;}",
+        "img {position: absolute;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/cta_1bf9bc61-a4dd-4193-b1bf-30a3e27d7c8a.png",
+        "text_1": "Interesting stories about the (sustainable) world of dogs",
+        "text_2": "Read our blog",
+        "value_one": "",
+        "text_one": "",
+        "value_two": "",
+        "text_two": "",
+        "value_three": "",
+        "text_three": "",
+        "link_sust": "shopify://blogs/news"
+      }
+    },
+    "590005bd-3566-4239-a304-fb0866bae705": {
+      "type": "section_5",
+      "settings": {
+        "image_1": "shopify://shop_images/section_5_51cdad89-f809-4da5-b6d6-3a0dd83377dc.png",
+        "image_2": "shopify://shop_images/upper-arrow_ff60dc2b-9c9b-4504-84f3-e5f11a79d5cc.png",
+        "image_3": "shopify://shop_images/planetPng.png",
+        "image_4": "shopify://shop_images/oilPng.png",
+        "image_5": "shopify://shop_images/hpPng.png",
+        "image_6": "shopify://shop_images/lower-arrow_bbca69d4-df89-4909-99c5-9dadc721d93c.png",
+        "text_1": "Natural algae oil benefits",
+        "text_2": "Why natural algae oil is good for you & your dog",
+        "text_3": "",
+        "call_to_action": "Try For Franky",
+        "text_4": "Keeps our planet spinning",
+        "text_5": "Ordinary pet food provides omega 3 oil from aquacultures. We’re cutting out that step! instead of depleting marine stock, our marine algae is being harvested and omega 3 rich oil is being extracted without the use of overfishing. ",
+        "text_6": "EPA and DHA rich",
+        "text_7": "A vital element in petfood is the presence of EPA and DHA, which has to be added on top of the traditional omega 3 sources. Natural algae oil, However, can deliver both in high concentrations. More than twice as in fish oils used in common pet food.  ",
+        "text_8": "Indispensable for your dog’s health",
+        "text_9": "DHA and EPA contribute to the vital health of your dog. It boosts immune system, hearth health, joint health, skin health, eyesight and cognitive health! ",
+        "call_to_action_two": "Try For Franky",
+        "link_1": "/pages/our-product#quizz"
+      }
+    },
+    "a9f84f92-be97-4941-b6e3-5012e97f3389": {
+      "type": "calc_section",
+      "disabled": true,
+      "blocks": {
+        "2cd839aa-92f9-4ad8-8e70-a745f8a08f34": {
+          "type": "items",
+          "settings": {
+            "image": "shopify://shop_images/calculate_19efd556-7426-4aa3-9821-bc39e2e099d7.png",
+            "text": "Save 114 economy flights Amsterdam - Rome for the life of your dog",
+            "year": "1 year",
+            "type": "Golden retriever",
+            "weight": "1-5kg"
+          }
+        },
+        "1abf3bf6-28c9-439c-a9a7-70ef0f0a2f43": {
+          "type": "items",
+          "settings": {
+            "image": "shopify://shop_images/calculate_19efd556-7426-4aa3-9821-bc39e2e099d7.png",
+            "text": "Save 114 economy flights Amsterdam - Rome for the life of your dog",
+            "year": "2 year",
+            "type": "Golden retriever",
+            "weight": "1-5kg"
+          }
+        },
+        "6343c85a-ae4b-41a4-a390-0913155d227b": {
+          "type": "items",
+          "settings": {
+            "image": "shopify://shop_images/calculate_19efd556-7426-4aa3-9821-bc39e2e099d7.png",
+            "text": "Save 114 economy flights Amsterdam - Rome for the life of your dog",
+            "year": "1 year",
+            "type": "Golden retriever",
+            "weight": "1-5kg"
+          }
+        },
+        "d208238d-6e4e-442f-91e9-213dc0f74b7e": {
+          "type": "items",
+          "settings": {
+            "image": "shopify://shop_images/calculate_19efd556-7426-4aa3-9821-bc39e2e099d7.png",
+            "text": "Insectes partout",
+            "year": "2 year",
+            "type": "Australian Shepherd",
+            "weight": "10-15kg"
+          }
+        },
+        "f35d0dc6-2dcd-4e65-bf2e-462eb3194f2c": {
+          "type": "items",
+          "settings": {
+            "image": "shopify://shop_images/calculate_19efd556-7426-4aa3-9821-bc39e2e099d7.png",
+            "text": "Save 114 economy flights Amsterdam - Rome for the life of your dog",
+            "year": "2 year",
+            "type": "Australian Shepherd",
+            "weight": "10-15kg"
+          }
+        },
+        "a4df6b43-50b0-43cd-9c2a-7e5e39028ba6": {
+          "type": "items",
+          "settings": {
+            "image": "shopify://shop_images/calculate_19efd556-7426-4aa3-9821-bc39e2e099d7.png",
+            "text": "Save 114 economy flights Amsterdam - Rome for the life of your dog",
+            "year": "1 year",
+            "type": "Australian Shepherd",
+            "weight": "10-15kg"
+          }
+        }
+      },
+      "block_order": [
+        "2cd839aa-92f9-4ad8-8e70-a745f8a08f34",
+        "1abf3bf6-28c9-439c-a9a7-70ef0f0a2f43",
+        "6343c85a-ae4b-41a4-a390-0913155d227b",
+        "d208238d-6e4e-442f-91e9-213dc0f74b7e",
+        "f35d0dc6-2dcd-4e65-bf2e-462eb3194f2c",
+        "a4df6b43-50b0-43cd-9c2a-7e5e39028ba6"
+      ],
+      "settings": {
+        "bg_img": "shopify://shop_images/bgg.png",
+        "text_1": "Calculate the impact of insect-based dog food",
+        "text_2": "Find out how much you can save by switching from common pet foods to insect based dog food!",
+        "link": "/pages/our-product#quizz"
+      }
+    },
+    "9faafaec-ec76-40cf-a8b9-21088468d841": {
+      "type": "divider",
+      "settings": {
+        "color": "#fefaf7"
+      }
+    },
+    "18bc5201-e23d-435a-a609-963b15bab8c6": {
+      "type": "testimonial",
+      "disabled": true,
+      "settings": {
+        "title1": "Testimonials",
+        "title2": "Find out what our customers think about For Franky! ",
+        "para1": "",
+        "title3": "Excellent",
+        "image1": "shopify://shop_images/stars.png",
+        "title4": "436 reviews on",
+        "image2": "shopify://shop_images/Frame_515.png",
+        "para2": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>",
+        "title5": "Koen Callebout",
+        "image3": "shopify://shop_images/Group_15.png",
+        "para3": "<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.lit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>",
+        "title6": "Koen Callebout",
+        "image4": "shopify://shop_images/Group_15.png",
+        "image5": "shopify://shop_images/unsplash_Qdt8f7Tcle0.png",
+        "image6": "shopify://shop_images/unsplash_Qdt8f7Tcle0.png",
+        "link": "/pages/our-product#quizz"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0d86a4ae-f131-4599-a369-5aa1ebb4db66",
+    "f7d6e9bd-13c6-4835-addf-36d0736895d7",
+    "c7b8f3c0-af54-4301-bf10-9ee133779cad",
+    "a45154c9-5e9b-49c2-8220-f3935443c8e5",
+    "590005bd-3566-4239-a304-fb0866bae705",
+    "a9f84f92-be97-4941-b6e3-5012e97f3389",
+    "9faafaec-ec76-40cf-a8b9-21088468d841",
+    "18bc5201-e23d-435a-a609-963b15bab8c6"
+  ]
+}

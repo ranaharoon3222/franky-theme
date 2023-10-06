@@ -1,0 +1,165 @@
+<!-- <--- Why For Franky  Section - -->
+<img class="curveAbout" src="{{ section.settings.image_2 | image_url }} " alt="">
+<div class="whySectionParent-wrapper">
+  <div class="wrapper">
+  
+    <!-- <--- Why For Franky  Section - -->
+    <!-- <--- Care About Section  Section - -->
+
+    <div class="careAboutParent-wrap">
+      <div class="careAboutParent">
+        <div class="careAboutParent-TextSection">
+          <div id="whySectionHeading_bg" class="whySectionHeading">
+            <p>{{ section.settings.text_4 }}</p>
+          </div>
+          <div class="animalMobilePic">
+            <img src="{{ section.settings.image_3 | image_url }}" alt="">
+          </div>
+          <div class="careHeading">
+            <p>{{ section.settings.text_5 }}</p>
+          </div>
+          <div class="carePara">
+            <p>
+              {{ section.settings.text_6 }}
+            </p>
+          </div>
+          <div class="careAboutListing">
+            <ul class="careAboutList">
+              <li class="listCareSection">
+                <span
+                  ><img
+                    class="careTickICon"
+                    src="{{ section.settings.image_4 | image_url }}"
+                    alt=""
+                  >
+                </span>
+                <span class="tickText">{{ section.settings.text_7 }}</span>
+              </li>
+              <li class="listCareSection">
+                <span
+                  ><img
+                    class="careTickICon"
+                    src="{{ section.settings.image_5 | image_url }}"
+                    alt=""
+                  >
+                </span>
+                <span class="tickText">{{ section.settings.text_8 }}</span>
+              </li>
+              <li class="listCareSection">
+                <span
+                  ><img
+                    class="careTickICon"
+                    src="{{ section.settings.image_6 | image_url }}"
+                    alt=""
+                  >
+                </span>
+                <span class="tickText">{{ section.settings.text_9 }}</span>
+              </li>
+            </ul>
+          </div>
+          <div class="careAboutBtn">
+            <a class="quizOpen">{{ section.settings.text_10 }}</a>
+          </div>
+        </div>
+        <div class="careAboutParent-ImageSection">
+          <img src="{{ section.settings.image_7 | image_url }}" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- <--- Care About Section  Section - -->
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "about_section_2",
+  "settings": [
+    {
+      "label": "image_1",
+      "id": "image_1",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_2",
+      "id": "image_2",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_3",
+      "id": "image_3",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_4",
+      "id": "image_4",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_5",
+      "id": "image_5",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_6",
+      "id": "image_6",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_7",
+      "id": "image_7",
+      "type": "image_picker"
+    },
+    {
+      "label": "text_3",
+      "id": "text_3",
+      "type": "text"
+    },
+    {
+      "label": "text_4",
+      "id": "text_4",
+      "type": "text"
+    },
+    {
+      "label": "text_5",
+      "id": "text_5",
+      "type": "text"
+    },
+    {
+      "label": "text_6",
+      "id": "text_6",
+      "type": "text"
+    },
+    {
+      "label": "text_7",
+      "id": "text_7",
+      "type": "text"
+    },
+    {
+      "label": "text_8",
+      "id": "text_8",
+      "type": "text"
+    },
+    {
+      "label": "text_9",
+      "id": "text_9",
+      "type": "text"
+    },
+    {
+      "label": "text_10",
+      "id": "text_10",
+      "type": "text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "about_section_2"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

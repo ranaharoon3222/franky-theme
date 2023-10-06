@@ -1,0 +1,443 @@
+<style>
+
+  .img-carousel {
+    width: 33vw;
+margin-right: 4rem;
+    padding-bottom:6rem;
+  }
+
+  @media (max-width: 480px) {
+       .img-carousel {
+          width:75vw;
+         padding-bottom:1rem;
+         margin-right:7rem;
+        }
+      }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+  .img-carousel {
+          width:40vw;
+         padding-bottom:1rem;
+         margin-right:7rem;
+        }
+  
+}
+  
+  .no_account {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+  }
+  @media (max-width: 480px) {
+       .no_account  {
+          margin: auto
+        }
+      }
+  .no_account_span {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    color: #4b9c8e;
+  }
+  .no_account_a {
+    color: #f48f86;
+    text-decoration: none;
+  }
+       .insec1  .swiper-container {
+        overflow: hidden;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      @media (min-width: 480px) {
+       .insec1  .swiper-container {
+
+        }
+      }
+      .insec1 .swiper-container-wrapper {
+        display: flex;
+        position:relative;
+      }
+      @media (min-width: 480px) {
+       .insec1  .swiper-container-wrapper {
+          flex-flow: row nowrap;
+        }
+      }
+
+      .insec1 .swiper-button-next, .swiper-button-prev {
+        color: #000;
+      }
+
+      .insec1 .swiper-slide {
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        background-color: #fff0;
+        /* Center slide text vertically */
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        /* Slide content */
+      }
+      .insec1 .swiper-slide .description,
+      .insec1 .swiper-slide .title {
+        display: block;
+        opacity: 0;
+        transition: 0.5s ease 0.5s;
+      }
+      .insec1 .swiper-slide-active .description,
+      .insec1 .swiper-slide-active .title {
+        opacity: 1;
+      }
+      .insec1 .swiper-slide-active .title {
+        margin-bottom: 0.5rem;
+        font-size: 24px;
+        color: #000;
+        transition: opacity 0.5s ease 0.5s;
+      }
+      .insec1 .swiper-slide-active .description {
+        font-size: 16px;
+        color: #777;
+        transition: opacity 0.5s ease 0.75s;
+      }
+
+      .insec1 .gallery-top {
+        position: relative;
+        width: 100%;
+      }
+      .insec1 .swiper-container-wrapper {
+        display: flex;
+
+        height: 100%;
+        width: 50vw;
+    }
+   .insec1  .gallery-thumbs  .swiper-slide {
+      height: auto;
+  }
+      @media (min-width: 780px) {
+      .insec1   .gallery-top {
+         
+          margin-right: 10px;
+        }
+      }
+
+      .insec1 .gallery-thumbs {
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+      }
+      @media (min-width: 780px) {
+       .insec1  .gallery-thumbs {
+          width: 20%;
+
+          padding: 0;
+        }
+      }
+      .insec1 .gallery-thumbs .swiper-wrapper {
+        flex-direction: row;
+      }
+      @media (min-width: 780px) {
+       .insec1  .gallery-thumbs .swiper-wrapper {
+          flex-direction: column;
+        }
+      }
+      .insec1 .gallery-thumbs .swiper-slide {
+        width: 25%;
+        flex-flow: row nowrap;
+        opacity: 0.75;
+        cursor: pointer;
+      }
+      @media (min-width: 780px) {
+       .insec1  .gallery-thumbs .swiper-slide {
+          flex-flow: column nowrap;
+          width: 100%;
+        }
+          .insec1 .gallery-thumbs .swiper-slide {
+    width: 80px;
+    border: 2px solid #5ec3b2;
+    border-radius: 100px;
+    height: 80px;
+    object-fit: cover;
+}
+.insec1 .gallery-thumbs {
+    position: absolute;
+    left: 30px;
+    z-index: 3;
+  top:50px;
+}
+
+        
+      }
+      .insec1 .gallery-thumbs .swiper-slide-thumb-active {
+        opacity: 1;
+      }
+
+
+        @media (max-width: 780px) {
+          .insec1 .gallery-thumbs .swiper-slide {
+    border: 1px solid #5ec3b214;
+}
+              .insec1 .swiper-container-wrapper {
+        width: 100%;
+    }
+          insec1 .swiper-slide {
+      width: 100% !important;
+  }
+      .insec1 .gallery-thumbs .swiper-slide {
+      width: 20% !important;
+  }
+          .insec1 .swiper-container-wrapper {
+      height: auto;
+      flex-wrap: wrap-reverse;
+  }
+          .insecbox {
+      display: block;
+  }
+
+      }
+
+  .insec1 {
+    position: relative;
+}
+</style>
+<section>
+  <div class="insecsec secspacing" id="quizz">
+    <div class="insecbox">
+      <div class="insec1">
+        <img src="{{ section.settings.image7 | image_url }}" style="
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+              width: 100%;
+">
+        <!-- Slider main wrapper -->
+        <div class="swiper-container-wrapper">
+          <!-- Slider thumbnail container -->
+          <div class="swiper-container gallery-thumbs">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              {% for b in section.blocks %}
+                <div class="swiper-slide">
+                  <img src="{{ b.settings.image | image_url }}" loading="lazy">
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+          <!-- Slider main container -->
+          <div class="swiper-container gallery-top">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+
+              {% for b in section.blocks %}
+                <div class="swiper-slide">
+                  <img loading="lazy" class="img-carousel" src="{{ b.settings.image | image_url }}">
+                </div>
+              {% endfor %}
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="insect2">
+        <h1>{{ section.settings.title1 }}</h1>
+        <h2>{{ section.settings.title2 }}</h2>
+        <p>{{ section.settings.para1 }}</p>
+        <div class="insectnested">
+          <div class="insectitem1">
+            <div class="insecf">
+              <img loading="lazy" src="{{ section.settings.image2 | image_url }}" alt="">
+              <h3>{{ section.settings.title3 }}</h3>
+            </div>
+          </div>
+          <div class="insectitem2">
+            <div class="insecf">
+              <img loading="lazy"  src="{{ section.settings.image3 | image_url }}" alt="">
+              <h3>{{ section.settings.title4 }}</h3>
+            </div>
+          </div>
+          <div class="insectitem3">
+            <div class="insecf">
+              <img loading="lazy" src="{{ section.settings.image4 | image_url }}" alt="">
+              <h3>{{ section.settings.title5 }}</h3>
+            </div>
+          </div>
+          <div class="insectitem4">
+            <div class="insecf">
+              <img loading="lazy" src="{{ section.settings.image5 | image_url }}" alt="">
+              <h3>{{ section.settings.title6 }}</h3>
+            </div>
+          </div>
+        </div>
+        <div class="insectanother">
+          <div class="insectitem5">
+              <button class="quizOpen">{{ section.settings.call_to_action }}</button>            
+          </div>
+          {% comment %}
+
+        <div class="insectitem6">
+            <a href="/pages/about" style="
+    text-decoration: none;
+"><h4>Learn more</h4></a>
+          </div>
+         {% endcomment %}
+        </div>
+      </div>
+    </div>
+    <div class="insectnav">
+      <img src="{{ section.settings.image6 | image_url }}" alt="">
+    </div>
+  </div>
+</section>
+
+<script>
+  var galleryThumbs = new Swiper(".gallery-thumbs", {
+    centeredSlides: true,
+    centeredSlidesBounds: true,
+    direction: "horizontal",
+    spaceBetween: 10,
+    slidesPerView: 'auto',
+    freeMode: false,
+    watchSlidesVisibility: true,
+    watchSlidesProgress: true,
+    watchOverflow: true,
+    breakpoints: {
+      480: {
+        direction: "vertical",
+        slidesPerView: 'auto'
+      }
+    }
+  });
+  var galleryTop = new Swiper(".gallery-top", {
+    direction: "horizontal",
+    slidesPerView: 1,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
+    a11y: {
+      prevSlideMessage: "Previous slide",
+      nextSlideMessage: "Next slide",
+    },
+    keyboard: {
+      enabled: true,
+    },
+    thumbs: {
+      swiper: galleryThumbs
+    }
+  });
+  // galleryTop.on("slideChangeTransitionStart", function () {
+  //   galleryThumbs.slideTo(galleryTop.activeIndex);
+  // });
+  galleryThumbs.on("transitionStart", function () {
+    galleryTop.slideTo(galleryThumbs.activeIndex);
+  });
+</script>
+
+{% schema %}
+{
+  "name": "insect",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title1",
+      "label": "title1"
+    },
+    {
+      "type": "text",
+      "id": "title2",
+      "label": "title2"
+    },
+    {
+      "type": "text",
+      "id": "title3",
+      "label": "title3"
+    },
+    {
+      "type": "text",
+      "id": "title4",
+      "label": "title4"
+    },
+    {
+      "type": "text",
+      "id": "title5",
+      "label": "title5"
+    },
+    {
+      "type": "text",
+      "id": "title6",
+      "label": "title6"
+    },
+    {
+      "type": "richtext",
+      "id": "para1",
+      "label": "paragraph"
+    },
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "bannerimage"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "list"
+    },
+    {
+      "type": "image_picker",
+      "id": "image3",
+      "label": "list"
+    },
+    {
+      "type": "image_picker",
+      "id": "image4",
+      "label": "list"
+    },
+    {
+      "type": "image_picker",
+      "id": "image5",
+      "label": "list"
+    },
+    {
+      "type": "image_picker",
+      "id": "image6",
+      "label": "navimage"
+    },
+    {
+      "type": "text",
+      "id": "call_to_action",
+      "label": "call to action"
+    },
+    {
+      "type": "image_picker",
+      "id": "image7",
+      "label": "background"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slides",
+      "name": "slides",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "insect"
+    }
+  ]
+}
+{% endschema %}

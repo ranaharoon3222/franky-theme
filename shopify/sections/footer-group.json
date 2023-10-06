@@ -1,0 +1,71 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "97105ed2-c913-4fc9-a5b7-3f8f41e9c944": {
+      "type": "preFooter",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image1": "shopify://shop_images/preFooter_90b07d08-ba67-443f-b8d1-4d855bb04802.png",
+        "image2": "shopify://shop_images/Intersect_9c36c041-75cb-4d30-9351-ffe35611ae6a.png",
+        "image3": "shopify://shop_images/footerLogo_65e20f60-ca83-4a39-bc1f-c4a83fee138d.png",
+        "image4": "shopify://shop_images/Empty.png",
+        "text_1": "",
+        "text_2": "Try For Franky",
+        "text_3": "Login My Franky"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "link_list",
+          "settings": {
+            "heading": "About For Franky",
+            "menu": "about-for-franky"
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Support",
+            "menu": "support"
+          }
+        },
+        "89895ea2-0a14-42f8-b888-aa6aacae3f69": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Legal",
+            "menu": "legal"
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "89895ea2-0a14-42f8-b888-aa6aacae3f69"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "latest_blogs": "Latest Blog Posts"
+      }
+    }
+  },
+  "order": [
+    "97105ed2-c913-4fc9-a5b7-3f8f41e9c944",
+    "footer"
+  ]
+}

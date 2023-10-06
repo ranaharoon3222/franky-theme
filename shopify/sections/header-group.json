@@ -1,0 +1,48 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "a1d443b4-44f4-4644-8314-64cab301198e": {
+          "type": "announcement",
+          "settings": {
+            "text_first": "TWO WEEKS",
+            "text": "FREE SAMPLE",
+            "text_second": ", PAY DELIVERY ONLY",
+            "text_alignment": "center",
+            "color_scheme": "accent-2",
+            "link": "/pages/product#quizz"
+          }
+        }
+      },
+      "block_order": [
+        "a1d443b4-44f4-4644-8314-64cab301198e"
+      ],
+      "settings": {
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "orderLink": "shopify://pages/our-product",
+        "color_scheme": "background-1",
+        "call_to_action": "Try For Franky",
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

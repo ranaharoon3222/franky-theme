@@ -1,0 +1,81 @@
+<div class="section_6 ftr">
+  <img src="{{ section.settings.image1 | image_url }}" alt="">
+  <div class="preFooter">
+    <img src="{{ section.settings.image2 | image_url }}" alt="">
+    <div class="preFooter_grid">
+      <div class="page-width pure-g">
+        <div class="prefooter_frst pure-u-1 pure-u-md-8-24">
+          <img src="{{ section.settings.image3 | image_url }}" alt="">
+          <h5>
+            {{ section.settings.txt_1 }}
+          </h5>
+        </div>
+        <div class="prefooter_scnd pure-u-1 pure-u-md-8-24">
+          {% comment %} <img src="{{ section.settings.image4 | img_url : 'master' }}" alt="">  {% endcomment %} 
+        </div>
+        <div class="prefooter_thrd pure-u-1 pure-u-md-8-24">
+          <div>
+            <a class="p_btn quizOpen">{{ section.settings.text_2 }}</a>
+          </div>
+          <div class="preFooterscnd_btn">
+            <a href="/apps/subscriptions#/subscriptions/list">{{ section.settings.text_3 }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "preFooter",
+  "settings": [
+    {
+      "label": "image1",
+      "id": "image1",
+      "type": "image_picker"
+    },
+    {
+      "label": "image2",
+      "id": "image2",
+      "type": "image_picker"
+    },
+    {
+      "label": "image3",
+      "id": "image3",
+      "type": "image_picker"
+    },
+    {
+      "label": "image4",
+      "id": "image4",
+      "type": "image_picker"
+    },
+    {
+      "label": "text_1",
+      "id": "text_1",
+      "type": "text"
+    },
+    {
+      "label": "text_2",
+      "id": "text_2",
+      "type": "text"
+    },
+    {
+      "label": "text_3",
+      "id": "text_3",
+      "type": "text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "preFooter"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

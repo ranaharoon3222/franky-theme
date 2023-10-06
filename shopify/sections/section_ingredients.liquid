@@ -1,0 +1,137 @@
+
+
+{% comment %} <div class="top-image-ing">
+  <img src="{{ section.settings.image_1 | img_url : 'master' }}" alt="">
+</div> {% endcomment %}
+<div class="the_ingredients">
+  <div class="ingredients_upper">
+
+    <div class="ingredients_btn">
+          {% comment %}
+      <button>{{ section.settings.text_1 }}</button>
+          {% endcomment %}
+
+    </div>
+    <div class="ingredients_heading">
+      <h1>{{ section.settings.text_2 }}</h1>
+    </div>
+    <div class="ingredients_desc">
+      <p>
+        {{ section.settings.text_3 }}
+      </p>
+    </div>
+  </div>
+  <div class="ingedients_lower">
+    <div class="ingr_wrapper pure-g">
+      <div class="ingr_section pure-u-1 pure-u-md-5-24">
+        <div class="frst-desc">
+          <p>{{ section.settings.text_4 }}</p>
+        </div>
+        <div class="scnd-desc">
+          <p>{{ section.settings.text_5 }}</p>
+        </div>
+      </div>
+      <div class="img_ingr pure-u-1 pure-u-md-14-24">
+        <img loading="lazy" src="{{ section.settings.image_2 | image_url }}" alt="">
+      </div>
+      <div class="ingr_section pure-u-1 pure-u-md-5-24">
+        <div class="frst-desc">
+          <p>{{ section.settings.text_6 }}</p>
+        </div>
+        <div class="scnd-desc">
+          <p>{{ section.settings.text_7 }}</p>
+        </div>
+      </div>
+      <div class="ingr_btn">
+        <a class="quizOpen">{{ section.settings.call_to_action }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+    .the_ingredients {
+    background-image: url({{ section.settings.back | image_url }});
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "ingredients",
+  "settings": [
+    {
+      "label": "back",
+      "id": "back",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_1",
+      "id": "image_1",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_2",
+      "id": "image_2",
+      "type": "image_picker"
+    },
+    {
+      "label": "text_1",
+      "id": "text_1",
+      "type": "text"
+    },
+    {
+      "label": "text_2",
+      "id": "text_2",
+      "type": "text"
+    },
+    {
+      "label": "text_3",
+      "id": "text_3",
+      "type": "text"
+    },
+    {
+      "label": "text_4",
+      "id": "text_4",
+      "type": "text"
+    },
+    {
+      "label": "text_5",
+      "id": "text_5",
+      "type": "text"
+    },
+    {
+      "label": "text_6",
+      "id": "text_6",
+      "type": "text"
+    },
+    {
+      "label": "text_7",
+      "id": "text_7",
+      "type": "text"
+    },
+    {
+      "label": "call to action",
+      "id": "call_to_action",
+      "type": "text"
+    },
+    {
+      "label": "link",
+      "id": "link",
+      "type": "url"
+    }
+  ],
+  "presets": [
+    {
+      "name": "ingredients"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

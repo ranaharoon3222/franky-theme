@@ -1,0 +1,187 @@
+<section>
+  <div class="ingredeintssec secspacing">
+    <div class="wrapper">
+      <div class="ingremain">
+        <div class="ingreh">
+          <h2>{{ section.settings.title1 }}</h2>
+        </div>
+        <h1>{{ section.settings.title2 }}</h1>
+      </div>
+
+      <swiper-container
+        class="mySwiper swipersec"
+        pagination="false"
+        pagination-clickable="false"
+        space-between="30"
+        slides-per-view="3"
+      >
+        <swiper-slide>
+          <div class="seaweedbox">
+            <div class="seatext">
+              <div class="seaimage">
+                <img src="{{ section.settings.image1 | image_url }}" alt="">
+              </div>
+              <h1>{{ section.settings.title3 }}</h1>
+              <p>{{ section.settings.para1 }}</p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="seaweedbox">
+            <div class="seatext">
+              <div class="seaimage">
+                <img src="{{ section.settings.image2 | image_url }}" alt="">
+              </div>
+              <h1>{{ section.settings.title4 }}</h1>
+              <p>{{ section.settings.para2 }}</p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="seaweedbox">
+            <div class="seatext">
+              <div class="seaimage">
+                <img src="{{ section.settings.image3 | image_url }}" alt="">
+              </div>
+              <h1>{{ section.settings.title5 }}</h1>
+              <p>{{ section.settings.para3 }}</p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="seaweedbox">
+            <div class="seatext">
+              <div class="seaimage">
+                <img src="{{ section.settings.image4 | image_url }}" alt="">
+              </div>
+              <h1>{{ section.settings.title6 }}</h1>
+              <p>{{ section.settings.para4 }}</p>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="seaweedbox">
+            <div class="seatext">
+              <div class="seaimage">
+                <img src="{{ section.settings.image5 | image_url }}" alt="">
+              </div>
+              <h1>{{ section.settings.title7 }}</h1>
+              <p>{{ section.settings.para5 }}</p>
+            </div>
+          </div>
+        </swiper-slide>
+      </swiper-container>
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+      <div class="ingredientbtn">
+        <button>
+          <a class="quizOpen">{{ section.settings.call_to_action }}</a>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "ingredients",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title1",
+      "label": "title1"
+    },
+    {
+      "type": "text",
+      "id": "title2",
+      "label": "title2"
+    },
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "image1"
+    },
+    {
+      "type": "text",
+      "id": "title3",
+      "label": "title3"
+    },
+    {
+      "type": "richtext",
+      "id": "para1",
+      "label": "para1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "image2"
+    },
+    {
+      "type": "text",
+      "id": "title4",
+      "label": "title4"
+    },
+    {
+      "type": "richtext",
+      "id": "para2",
+      "label": "para2"
+    },
+    {
+      "type": "image_picker",
+      "id": "image3",
+      "label": "image3"
+    },
+    {
+      "type": "text",
+      "id": "title5",
+      "label": "title5"
+    },
+    {
+      "type": "richtext",
+      "id": "para3",
+      "label": "para3"
+    },
+    {
+      "type": "image_picker",
+      "id": "image4",
+      "label": "image4"
+    },
+    {
+      "type": "text",
+      "id": "title6",
+      "label": "title6"
+    },
+    {
+      "type": "richtext",
+      "id": "para4",
+      "label": "para4"
+    },
+    {
+      "type": "image_picker",
+      "id": "image5",
+      "label": "image5"
+    },
+    {
+      "type": "text",
+      "id": "title7",
+      "label": "title7"
+    },
+    {
+      "type": "richtext",
+      "id": "para5",
+      "label": "para5"
+    },
+    {
+      "type": "text",
+      "id": "call_to_action",
+      "label": "call to action"
+    }
+  ],
+  "presets": [
+    {
+      "name": "ingredients"
+    }
+  ]
+}
+{% endschema %}

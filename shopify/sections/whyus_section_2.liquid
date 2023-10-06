@@ -1,0 +1,122 @@
+<div class="page-width {{ section.settings.class }}">
+  <div class="whyForParent">
+    <div class="lft-txtCareSection">
+      <div class="whyForHeading">
+        <p>{{ section.settings.text_1 }}</p>
+      </div>
+      <div class="whyForSubHeading">
+        <h3>{{ section.settings.text_2 }}</h3>
+      </div>
+
+      <div class="whyFor-para">
+        <p>
+          {{ section.settings.text_3 }}
+        </p>
+      </div>
+      <div class="whyForListing">
+        <ul class="whyForList">
+          <li class="listWhySection">
+            <span
+              ><img
+                class="careTickICon"
+                src="{{ 'check.png' | asset_url }}"
+                alt=""
+              >
+            </span>
+            <span class="tickText">{{ section.settings.li_one }}</span>
+          </li>
+          <li class="listWhySection">
+            <span
+              ><img
+                class="careTickICon"
+                src="{{ 'check.png' | asset_url }}"
+                alt=""
+              >
+            </span>
+            <span class="tickText">{{ section.settings.li_two }}</span>
+          </li>
+          <li class="listWhySection">
+            <span
+              ><img
+                class="careTickICon"
+                src="{{ 'check.png' | asset_url }}"
+                alt=""
+              >
+            </span>
+            <span class="tickText">{{ section.settings.li_three }}</span>
+          </li>
+        </ul>
+      </div>
+      <div class="careAboutBtn">
+        <a class="quizOpen">{{ section.settings.call_to_action }}</a>
+      </div>
+    </div>
+    <div id="careDogImg" class="lft-ImgCareSection">
+      <img class="aboutDogImg" src="{{ section.settings.image_6 | image_url }}" alt="">
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "whyus_section_2",
+  "settings": [
+    {
+      "label": "class",
+      "id": "class",
+      "type": "text"
+    },
+    {
+      "label": "image_6",
+      "id": "image_6",
+      "type": "image_picker"
+    },
+    {
+      "label": "text_1",
+      "id": "text_1",
+      "type": "text"
+    },
+    {
+      "label": "text_2",
+      "id": "text_2",
+      "type": "text"
+    },
+    {
+      "label": "text_3",
+      "id": "text_3",
+      "type": "text"
+    },
+    {
+      "label": "list one",
+      "id": "li_one",
+      "type": "text"
+    },
+    {
+      "label": "list two",
+      "id": "li_two",
+      "type": "text"
+    },
+    {
+      "label": "list three",
+      "id": "li_three",
+      "type": "text"
+    },
+    {
+      "label": "call to action",
+      "id": "call_to_action",
+      "type": "text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "whyus_section_2"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

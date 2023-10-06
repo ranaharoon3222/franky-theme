@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-register",
+      "custom_css": [
+        ".customer.register {width: 34rem;}",
+        "button {text-decoration: none; background-color: #f48f86; color: #fff; padding: 10px 25px; font-family: boldenvan_demoregular; border-radius: 20px;}",
+        "h1 {color:#5EC3B2 ;}"
+      ],
+      "settings": {
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

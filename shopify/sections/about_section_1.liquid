@@ -1,0 +1,59 @@
+<div class="wrapper">
+  <!-- <--- About Title Section - -->
+  <div class="aboutSectionParent">
+    <div class="aboutTitle">
+      <h4>{{ section.settings.text_1 }}</h4>
+    </div>
+    <div class="aboutSectionParaMain">
+      <p>{{ section.settings.text_2 }}</p>
+    </div>
+    <div class="aboutSectionPara">
+      <p>
+        {{ section.settings.text_3 }}
+      </p>
+    </div>
+    <div class="aboutSectionBtn">
+      <a class="p_btn quizOpen">{{ section.settings.text_4 }}</a>
+    </div>
+  </div>
+  <!-- <--- About Title Section - -->
+</div>
+
+{% schema %}
+{
+  "name": "about_section_1",
+  "settings": [
+    {
+      "label": "text_1",
+      "id": "text_1",
+      "type": "text"
+    },
+    {
+      "label": "text_2",
+      "id": "text_2",
+      "type": "text"
+    },
+    {
+      "label": "text_3",
+      "id": "text_3",
+      "type": "text"
+    },
+    {
+      "label": "text_4",
+      "id": "text_4",
+      "type": "text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "about_section_1"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

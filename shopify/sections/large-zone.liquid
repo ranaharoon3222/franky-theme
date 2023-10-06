@@ -1,0 +1,68 @@
+{% assign bg_image = section.settings.background_image %}
+
+{% if bg_image %}
+  <section class="large-image-section" style="background-image: url({{ bg_image | image_url: width: 100, height: 100 }});">
+{% else %}
+  <section class="large-image-section">
+{% endif %}
+
+  <div class="large-image-content">
+    {% if section.settings.title %}
+      <h2>{{ section.settings.title }}</h2>
+    {% endif %}
+
+    {% if section.settings.text %}
+      <p>{{ section.settings.text }}</p>
+    {% endif %}
+
+    {% if section.settings.cta_text and section.settings.cta_link %}
+      <a href="{{ section.settings.cta_link }}" class="button">{{ section.settings.cta_text }}</a>
+    {% endif %}
+  </div>
+
+</section>
+
+{% schema %}
+{
+  "name": "large zone",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Select background image"
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "default": "Text"
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "Call to Action text",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "Call to Action link",
+      "default": "/"
+    }
+  ]
+}
+{% endschema %}

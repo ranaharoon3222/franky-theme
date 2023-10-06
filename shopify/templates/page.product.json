@@ -1,0 +1,305 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "38dcc1e6-99a6-4a35-916c-c74888c1f04a": {
+      "type": "section_1",
+      "settings": {
+        "image_2": "shopify://shop_images/Group_444.png",
+        "html": "",
+        "description": "<p>Our high-quality protein meal has everything your dog needs to stay healthy and happy. Find out what’ inside our kibbles below! Or try your free test kit. Pay only a small delivery fee and we’ll take care of the rest.  </p>",
+        "logo_1": "shopify://shop_images/logo_1_403a8af2-d0a8-43bf-8d0b-42d7ec100d2e.png",
+        "logo_2": "shopify://shop_images/logo_2_0c527c31-6a2a-4477-9572-d5790dc524a2.png",
+        "logo_3": "shopify://shop_images/logo_3_d2675e3d-d09a-4c7c-ad7e-2dc21431d613.png",
+        "txt_header": "",
+        "txt_1": "Healthy, sustainable and delicious kibbles",
+        "txt_2": "",
+        "txt_3": "Made in Belgium 🇧🇪",
+        "txt_4": "Hypoallergenic",
+        "txt_5": "Insect-based",
+        "link": "/pages/our-product#quizz",
+        "call_to_action": "Try For Franky"
+      }
+    },
+    "7208610c-30d7-4114-8f44-062d6f4e8e6d": {
+      "type": "abilty_section_1",
+      "settings": {
+        "custom_bg": "shopify://shop_images/why_franky_bg.png",
+        "image_1": "shopify://shop_images/Vector.png",
+        "image_2": "shopify://shop_images/Vector_1.png",
+        "image_3": "shopify://shop_images/Vector_2.png",
+        "text_1": "Our Proteins",
+        "text_2": "Insect protein’s Health benefits",
+        "text_3": "Clean and High-Quality Proteins ",
+        "text_4": "Our proteins come from dried mealworms that are cleaner and healthier than your average meat or fish protein. Cleaner for your dog and cleaner for the planet. That's one hell of a bargain!",
+        "text_5": "Full of amino and fatty acids, great for intestinal health",
+        "text_6": "Insect proteins are full of fatty acids, which nourishes intestinal health, generating beneficial gut bacteria. ",
+        "text_7": "Great digestibility",
+        "text_8": "Insect proteins have greater digestibility than their meat alternatives, providing better stool quality and nutritional absorption. ",
+        "text_9": "Try For Franky now"
+      }
+    },
+    "a82e5a39-85dc-4214-97aa-098540c2f821": {
+      "type": "section_ingredients",
+      "custom_css": [
+        "@media (min-width: 980px) {.img_ingr img {z-index: 1; top: -50px; }}"
+      ],
+      "settings": {
+        "back": "shopify://shop_images/why_franky_bg.png",
+        "image_1": "shopify://shop_images/Intersect_a3f7a36b-10e5-4b3a-9c65-ea9cf688d17c.png",
+        "image_2": "shopify://shop_images/forFrankyProduct.png",
+        "text_1": "What's inside?",
+        "text_2": "We care about our ingredients. ",
+        "text_3": "To ensure that we have fresh ingredients, we focused on delivering vegetables that are either produced in Belgium or come from neighboring countries. We opted for high quality products who do not need to be imported from outside of the EU or have been frees-dried since several seasons. Much of the common ingredients used in pet foods comes from Latin America and China. Apart from our natural algae oil, which had no qualitative equivalent in the EU, 99% from our products are produced in the EU, of which 72% produced in Belgium or neighboring countries. We commit to increase the local origin of our products.",
+        "text_4": "Apples, Potatoes, Peas",
+        "text_5": "Pumpkin, Chicory, Minerals",
+        "text_6": "Carrots, Dried insect protein",
+        "text_7": "Rape seed oil, Natural Algae Oil",
+        "call_to_action": "Try For Franky",
+        "link": ""
+      }
+    },
+    "2dd19625-32ff-45ad-949e-86af186eab3f": {
+      "type": "wecare",
+      "disabled": true,
+      "settings": {
+        "title1": "Why For Franky",
+        "title2": "We care about our planet",
+        "para1": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+        "para2": "<p>Local products</p>",
+        "para3": "<p>Local products</p>",
+        "para4": "<p>Local products</p>",
+        "image1": "shopify://shop_images/li.png",
+        "image2": "shopify://shop_images/li.png",
+        "image3": "shopify://shop_images/li.png",
+        "image4": "shopify://shop_images/wecare.png"
+      }
+    },
+    "7cfea288-96e0-41b3-a2cf-ab7cee133b5b": {
+      "type": "ouringredientss",
+      "blocks": {
+        "fbd79247-af83-4718-ba7b-2f633b7f8c02": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/plateMealworms.png",
+            "title": "Dried insect protein",
+            "text": "<p>High quality protein for great digestibility. Packed with amino acids for a great stool quality.  </p>"
+          }
+        },
+        "ae4a23d8-6d53-4fee-94b7-54ec8cae0bbe": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/plateApples.png",
+            "title": "Apples",
+            "text": "<p>Source of vitamin C, A and potassium, antioxidants, and fibers.</p>"
+          }
+        },
+        "aadbc623-54f8-4236-b846-1515799a48da": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/platePumpkin.png",
+            "title": "Pumpkin",
+            "text": "<p>Natural source of fibers to improve digestion and coat quality.</p>"
+          }
+        },
+        "50a4c2aa-3b0f-413e-8ba2-04ff49b776a0": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/plateCarrots.png",
+            "title": "Carrots",
+            "text": "<p>Rich in Vitamin A, great for eye health, thriving immune system and healthy skin and coat.</p>"
+          }
+        },
+        "909402ab-583d-4e6d-a915-a230d71ffa3e": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/PlatePotatoe.png",
+            "title": "Potatoes",
+            "text": "<p>Rich in vitamin C, B6, iron and magnesium. Great for your dog's immune and nervous system.</p>"
+          }
+        },
+        "8cf86814-7c0c-42b9-af55-50345ebc068c": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/platePeas.png",
+            "title": "Peas",
+            "text": "<p>Great source of dietary fiber, vitamins and minerals to boost energy levels. </p>"
+          }
+        },
+        "4f8277e4-2cbe-408f-a88c-5d5cd352f971": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/sewead.png",
+            "title": "Natural algae oil",
+            "text": "<p>Sustainable Omega 3, rich in DHA and EPA to boost your dog's immunity</p>"
+          }
+        },
+        "9ea573d9-a7f1-4ba0-98c9-421c537ca029": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/plateRapeSeed.png",
+            "title": "Rape seed oil",
+            "text": "<p>Great source of vegetal fatty acids to give a healthy coat and skin. </p>"
+          }
+        },
+        "ecf7ae57-5ffc-4c87-9983-f8a8b2b9e668": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/plateChicory.png",
+            "title": "Chicory",
+            "text": "<p>Natural source of FOS and insulin, great for intestinal health.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "fbd79247-af83-4718-ba7b-2f633b7f8c02",
+        "ae4a23d8-6d53-4fee-94b7-54ec8cae0bbe",
+        "aadbc623-54f8-4236-b846-1515799a48da",
+        "50a4c2aa-3b0f-413e-8ba2-04ff49b776a0",
+        "909402ab-583d-4e6d-a915-a230d71ffa3e",
+        "8cf86814-7c0c-42b9-af55-50345ebc068c",
+        "4f8277e4-2cbe-408f-a88c-5d5cd352f971",
+        "9ea573d9-a7f1-4ba0-98c9-421c537ca029",
+        "ecf7ae57-5ffc-4c87-9983-f8a8b2b9e668"
+      ],
+      "settings": {
+        "bg": "shopify://shop_images/ingredient.png",
+        "title1": "Our ingredients",
+        "subtitle1": "Find out the nutritional benefits of our ingredients!",
+        "title2": "We care about our planet"
+      }
+    },
+    "4f9d3a64-6f04-427a-92fa-c16435781094": {
+      "type": "section_4",
+      "custom_css": [
+        "h4 {margin: 0; color: #fff; font-size: 22px; font-weight: bolder;}",
+        "h6 {margin: 0; color: #fff;}",
+        "h2 {color: #fff; margin: 0;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/cta_ad40967e-abbe-4630-aebd-de19538d5d9a.png",
+        "image_2": "shopify://shop_images/laststar.png",
+        "image_3": "shopify://shop_images/laststar.png",
+        "text_1": "Insect vs meat based dogfood",
+        "text_2": "Learn about sustainability",
+        "value_one": "100x",
+        "text_one": "less land used",
+        "value_two": "4x",
+        "text_two": "less feed",
+        "value_three": "2850x",
+        "text_three": "less co2 waste",
+        "link_sust": "shopify://pages/sustainability"
+      }
+    },
+    "097fb5e5-1c97-4fc0-ae1f-085f5f867270": {
+      "type": "section_2",
+      "disabled": true,
+      "custom_css": [
+        ".pure-g {padding: 80px 0 !important;}",
+        ".subtitle {line-height: 1.3;}",
+        ".subtitle {padding-bottom: 10px !important;}"
+      ],
+      "settings": {
+        "text_carousel": "",
+        "image": "shopify://shop_images/image_52.png",
+        "type_1-image": "shopify://shop_images/sus1.png",
+        "type_2-image": "shopify://shop_images/sus2.png",
+        "type_3-image": "shopify://shop_images/sus3.png",
+        "type_4-image": "shopify://shop_images/sus4.png",
+        "text_1": "How does it work",
+        "text_2": "Sustainable Dogfood made with love",
+        "text_3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "text_4": "Locally sourced ingredients",
+        "text_5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "text_6": "Ingredients of natural origin",
+        "text_7": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "text_8": "Carefullycreated recipe",
+        "text_9": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "link_tryNow": "",
+        "link_1": "#quizz",
+        "link_learnMore": "",
+        "link_2": "shopify://pages/sustainability"
+      }
+    },
+    "6fbb359b-3014-49ac-9202-c6736fe4551d": {
+      "type": "insect",
+      "blocks": {
+        "4de4aaee-6ef0-43ea-aa1b-ab2f792ee53e": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/forFrankyPng_8c7de478-eb79-4e30-8e8e-0252ce0de2c2.png"
+          }
+        },
+        "f67f53af-3458-4870-822a-43fd7ebaf5a9": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/forFrankyCarousel2.png"
+          }
+        },
+        "82ce9f65-0b15-4f6d-965f-9b51caabc5c0": {
+          "type": "slides",
+          "settings": {
+            "image": "shopify://shop_images/forFrankyCarousel3.png"
+          }
+        }
+      },
+      "block_order": [
+        "4de4aaee-6ef0-43ea-aa1b-ab2f792ee53e",
+        "f67f53af-3458-4870-822a-43fd7ebaf5a9",
+        "82ce9f65-0b15-4f6d-965f-9b51caabc5c0"
+      ],
+      "settings": {
+        "title1": "Insect Protein & seaweed",
+        "title2": "Nutritionally complete and balanced food, packed with protein and ideal for dogs",
+        "title3": "Hypoallergenic",
+        "title4": "Contains Omega 3",
+        "title5": "Rich in Protein",
+        "title6": "Easy to Digest",
+        "para1": "",
+        "image1": "shopify://shop_images/insec.png",
+        "image2": "shopify://shop_images/li.png",
+        "image3": "shopify://shop_images/li.png",
+        "image4": "shopify://shop_images/li.png",
+        "image5": "shopify://shop_images/li.png",
+        "image6": "shopify://shop_images/insectnav.png",
+        "call_to_action": "Take the quiz",
+        "image7": "shopify://shop_images/Group_442.png"
+      }
+    },
+    "608de626-29f3-4a22-bd45-19b20b51fb63": {
+      "type": "section_6",
+      "custom_css": [
+        "h5 {color: #fff; margin: 0;}",
+        "h6 {color: #fff; margin: 0;}",
+        "h2 {margin: 0 auto;}"
+      ],
+      "settings": {
+        "blogs": "news",
+        "link": "",
+        "text_1": "Keep up to date with our newsfeed",
+        "text_2": "",
+        "text_3": "#HEALTH",
+        "read_posts": "Read all posts",
+        "call_to_action": "Try For Franky"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "38dcc1e6-99a6-4a35-916c-c74888c1f04a",
+    "7208610c-30d7-4114-8f44-062d6f4e8e6d",
+    "a82e5a39-85dc-4214-97aa-098540c2f821",
+    "2dd19625-32ff-45ad-949e-86af186eab3f",
+    "7cfea288-96e0-41b3-a2cf-ab7cee133b5b",
+    "4f9d3a64-6f04-427a-92fa-c16435781094",
+    "097fb5e5-1c97-4fc0-ae1f-085f5f867270",
+    "6fbb359b-3014-49ac-9202-c6736fe4551d",
+    "608de626-29f3-4a22-bd45-19b20b51fb63"
+  ]
+}

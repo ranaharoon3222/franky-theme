@@ -1,0 +1,440 @@
+{
+  "current": {
+    "logo": "shopify:\/\/shop_images\/Group_1.png",
+    "logo_width": 150,
+    "favicon": "shopify:\/\/shop_images\/6357ac44735ff47595f528b1_favicon-32.png",
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#121212",
+    "gradient_accent_1": "",
+    "colors_accent_2": "#5ec3b2",
+    "gradient_accent_2": "",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#fefaf7",
+    "gradient_background_1": "",
+    "colors_background_2": "#f3f3f3",
+    "gradient_background_2": "",
+    "type_header_font": "assistant_n4",
+    "heading_scale": 100,
+    "type_body_font": "assistant_n4",
+    "body_scale": 100,
+    "page_width": 1300,
+    "spacing_sections": 0,
+    "spacing_grid_horizontal": 8,
+    "spacing_grid_vertical": 8,
+    "buttons_border_thickness": 0,
+    "buttons_border_opacity": 100,
+    "buttons_radius": 0,
+    "buttons_shadow_opacity": 0,
+    "buttons_shadow_horizontal_offset": 0,
+    "buttons_shadow_vertical_offset": 4,
+    "buttons_shadow_blur": 5,
+    "variant_pills_border_thickness": 1,
+    "variant_pills_border_opacity": 55,
+    "variant_pills_radius": 40,
+    "variant_pills_shadow_opacity": 0,
+    "variant_pills_shadow_horizontal_offset": 0,
+    "variant_pills_shadow_vertical_offset": 4,
+    "variant_pills_shadow_blur": 5,
+    "inputs_border_thickness": 1,
+    "inputs_border_opacity": 55,
+    "inputs_radius": 0,
+    "inputs_shadow_opacity": 0,
+    "inputs_shadow_horizontal_offset": 0,
+    "inputs_shadow_vertical_offset": 4,
+    "inputs_shadow_blur": 5,
+    "card_style": "standard",
+    "card_image_padding": 0,
+    "card_text_alignment": "left",
+    "card_color_scheme": "background-1",
+    "card_border_thickness": 0,
+    "card_border_opacity": 10,
+    "card_corner_radius": 0,
+    "card_shadow_opacity": 0,
+    "card_shadow_horizontal_offset": 0,
+    "card_shadow_vertical_offset": 4,
+    "card_shadow_blur": 5,
+    "collection_card_style": "standard",
+    "collection_card_image_padding": 0,
+    "collection_card_text_alignment": "left",
+    "collection_card_color_scheme": "background-2",
+    "collection_card_border_thickness": 0,
+    "collection_card_border_opacity": 10,
+    "collection_card_corner_radius": 0,
+    "collection_card_shadow_opacity": 0,
+    "collection_card_shadow_horizontal_offset": 0,
+    "collection_card_shadow_vertical_offset": 4,
+    "collection_card_shadow_blur": 5,
+    "blog_card_style": "standard",
+    "blog_card_image_padding": 0,
+    "blog_card_text_alignment": "left",
+    "blog_card_color_scheme": "background-2",
+    "blog_card_border_thickness": 0,
+    "blog_card_border_opacity": 10,
+    "blog_card_corner_radius": 0,
+    "blog_card_shadow_opacity": 0,
+    "blog_card_shadow_horizontal_offset": 0,
+    "blog_card_shadow_vertical_offset": 4,
+    "blog_card_shadow_blur": 5,
+    "text_boxes_border_thickness": 0,
+    "text_boxes_border_opacity": 10,
+    "text_boxes_radius": 0,
+    "text_boxes_shadow_opacity": 0,
+    "text_boxes_shadow_horizontal_offset": 0,
+    "text_boxes_shadow_vertical_offset": 4,
+    "text_boxes_shadow_blur": 5,
+    "media_border_thickness": 1,
+    "media_border_opacity": 5,
+    "media_radius": 0,
+    "media_shadow_opacity": 0,
+    "media_shadow_horizontal_offset": 0,
+    "media_shadow_vertical_offset": 4,
+    "media_shadow_blur": 5,
+    "popup_border_thickness": 1,
+    "popup_border_opacity": 10,
+    "popup_corner_radius": 0,
+    "popup_shadow_opacity": 0,
+    "popup_shadow_horizontal_offset": 0,
+    "popup_shadow_vertical_offset": 4,
+    "popup_shadow_blur": 5,
+    "drawer_border_thickness": 1,
+    "drawer_border_opacity": 10,
+    "drawer_shadow_opacity": 0,
+    "drawer_shadow_horizontal_offset": 0,
+    "drawer_shadow_vertical_offset": 4,
+    "drawer_shadow_blur": 5,
+    "badge_position": "bottom left",
+    "badge_corner_radius": 40,
+    "sale_badge_color_scheme": "accent-2",
+    "sold_out_badge_color_scheme": "inverse",
+    "accent_icons": "text",
+    "brand_headline": "",
+    "brand_description": "<p><\/p>",
+    "brand_image_width": 100,
+    "social_facebook_link": "",
+    "social_instagram_link": "",
+    "social_youtube_link": "",
+    "social_tiktok_link": "",
+    "social_twitter_link": "",
+    "social_snapchat_link": "",
+    "social_pinterest_link": "",
+    "social_tumblr_link": "",
+    "social_vimeo_link": "",
+    "predictive_search_enabled": false,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": false,
+    "currency_code_enabled": true,
+    "cart_type": "drawer",
+    "show_vendor": false,
+    "show_cart_note": false,
+    "cart_drawer_collection": "",
+    "sections": {
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "color_scheme": "background-1"
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "color_scheme": "background-1"
+        }
+      },
+      "quiz": {
+        "type": "quiz",
+        "blocks": {
+          "440d69e5-221d-4542-817d-e5fc3b05d036": {
+            "type": "step",
+            "settings": {
+              "step": "",
+              "tab": "Welcome",
+              "small_text": "Welcome",
+              "heading": "For Franky is LIVE !",
+              "paragrapgh": "<p>Fill out the following questions so we can send your furry friend's daily needs!<\/p>",
+              "stepInput": ""
+            }
+          },
+          "a39fa10d-360c-4a9f-a713-877b01d5b8a6": {
+            "type": "step",
+            "settings": {
+              "step": "information",
+              "tab": "Information",
+              "small_text": "Step 1\/9",
+              "heading": "What's your name, email and postal code?",
+              "paragrapgh": "",
+              "stepInput": "{% raw %}\n\n<render-input-field\n  type=\"text\"\n  :label=\"$t('message.full_name')\"\n  name=\"full_name\"\n  validation=\"required\"\n>\n<\/render-input-field>\n\n<render-input-field\n  :label=\"$t('message.email')\"\n  name=\"email\"\n  type=\"text\"\n  validation=\"required|email\"\n>\n<\/render-input-field>\n\n<render-input-field\n  :label=\"$t('message.postal_code')\"\n  name=\"postal_code\"\n  validation=\"required\"\n  type=\"number\"\n>\n<\/render-input-field>\n\n{% endraw %}"
+            }
+          },
+          "3961f44d-4970-4c93-a4ae-e8bb5c0486e6": {
+            "type": "step",
+            "settings": {
+              "step": "dog_name",
+              "tab": "Dog's name",
+              "small_text": "Step 2\/9",
+              "heading": "What's your dog's name?",
+              "paragrapgh": "",
+              "stepInput": "{% raw %}\n<div v-for=\"(n) in dogs\" :key=\"n\">\n  <div v-if=\"!rmDogs.includes(n)\">\n    <render-dog-field\n      :label=\"$t('message.dog_name')\"\n      :name=\"'dog_' + n\"\n      validation=\"required\"\n      :index=\"n\"\n      icon=\"trash\"\n      @remove-dog=\"(n) => removeDog(n)\"\n    >\n    <\/render-dog-field>\n\n\n    <render-image-field\n      :label=\"$t('message.dog_image')\"\n      :name=\"'dog_image' + n\"\n      validation=\"\"\n      type=\"file\"\n    >\n    <\/render-image-field>\n  <\/div>\n<\/div>\n{% endraw %}"
+            }
+          },
+          "afbb1efe-ae9e-4f5d-b69f-53e0547ba8e9": {
+            "type": "step",
+            "settings": {
+              "step": "breed",
+              "tab": "Breed",
+              "small_text": "Step 3\/9",
+              "heading": "What breed is your dog?",
+              "paragrapgh": "",
+              "stepInput": "{% raw %}\n\n<div v-for=\"n in dogs\">\n  <div v-if=\"!rmDogs.includes(n)\">\n    <render-auto-complete\n      :label=\"$t('message.breed', { msg: value?.dog_name?.['dog_' + n] })\"\n      :name=\"'breed_' + n\"\n      validation=\"required\"\n    >\n    <\/render-auto-complete>\n  <\/div>\n<\/div>\n{% endraw %}"
+            }
+          },
+          "372c2629-66d8-4a9a-897e-964bae5e35e6": {
+            "type": "step",
+            "settings": {
+              "step": "weight",
+              "tab": "Weight",
+              "small_text": "Step 4\/9",
+              "heading": "What is the weight of your dog?",
+              "paragrapgh": "",
+              "stepInput": "{% raw %}\n<div v-for=\"n in dogs\">\n  <div v-if=\"!rmDogs.includes(n)\">\n  <render-input-field :label=\"$t('message.dog_weight', { msg: value?.dog_name?.['dog_' + n] })\" \ntype=\"number\" \nnumber=\"float\"\n:name=\"'dogweight_' + n\" validation=\"required\">\n  <\/render-input-field>\n<\/div>\n<\/div>\n{% endraw %}"
+            }
+          },
+          "6d755c96-f9ae-43ad-8ff0-26bd5a740157": {
+            "type": "step",
+            "settings": {
+              "step": "age",
+              "tab": "Age",
+              "small_text": "Step 5\/9",
+              "heading": "How old is your dog?",
+              "paragrapgh": "",
+              "stepInput": "{% raw %}\n<div v-for=\"n in dogs\">\n  <div v-if=\"!rmDogs.includes(n)\">\n  <render-input-field\n    :label=\"$t('message.dog_year', { msg: value?.dog_name?.['dog_' + n] })\"\n    type=\"number\"\n    number=\"float\"\n    :name=\"'dog_year_' + n\"\n    validation=\"required\"\n  >\n  <\/render-input-field>\n\n  <render-input-field\n    :label=\"$t('message.dog_month', { msg: value?.dog_name?.['dog_' + n] })\"\n    type=\"number\"\n    number=\"float\"\n    :name=\"'dog_month_' + n\"\n    validation=\"max:12\"\n  >\n  <\/render-input-field>\n<\/div>\n<\/div>\n{% endraw %}"
+            }
+          },
+          "60179e4e-0cff-4d51-9496-d31225f66738": {
+            "type": "step",
+            "settings": {
+              "step": "sex",
+              "tab": "Sex",
+              "small_text": "Step 6\/9",
+              "heading": "Is your dog male of female?",
+              "paragrapgh": "",
+              "stepInput": "{% raw %}\n\n<div v-for=\"n in dogs\">\n  <div v-if=\"!rmDogs.includes(n)\">\n  <render-check-field\n    type=\"radio\"\n    :label=\"$t('message.dog_sex', { msg: value?.dog_name?.['dog_' + n] })\"\n    :name=\"'dog_sex_' + n\"\n    validation=\"required\"\n    :options=\"[\n    { label: 'Male', value: '1.0' },\n    { label: 'Female', value: '1.01' }\n  ]\"\n  >\n  <\/render-input-field>\n<\/div><\/div>\n{% endraw %}"
+            }
+          },
+          "dd5f8041-96cc-4b3f-ad9a-719cadf3cb98": {
+            "type": "step",
+            "settings": {
+              "step": "activity",
+              "tab": "Activity level",
+              "small_text": "Step 7\/9",
+              "heading": "How active is your dog?",
+              "paragrapgh": "",
+              "stepInput": "{% raw %}\n\n<div v-for=\"n in dogs\">\n  <div v-if=\"!rmDogs.includes(n)\">\n  <render-check-field\n    type=\"radio\"\n    \n:label=\"$t('message.dog_activity', { msg: value?.dog_name?.['dog_' + n] })\"\n    :name=\"'dog_activity_' + n\"\n    validation=\"required\"\n    :options=\"[\n    { label: $t('message.low_activity'), value: '0.86' },\n    { label: $t('message.moderate_activity'), value: '1' },\n    { label: $t('message.moderate_activity_high'), value: '1.13' },\n    { label: $t('message.high_activity'), value: '1.48' }\n  ]\"\n  >\n  <\/render-input-field>\n<\/div><\/div>\n{% endraw %}"
+            }
+          },
+          "4dae89df-4f47-4c27-b626-ce353193f7e3": {
+            "type": "step",
+            "settings": {
+              "step": "desexed",
+              "tab": "Desexed",
+              "small_text": "Step 8\/9",
+              "heading": "Is your dog sterilized\/castrated?",
+              "paragrapgh": "",
+              "stepInput": "{% raw %}\n\n<div v-for=\"n in dogs\">\n  <div v-if=\"!rmDogs.includes(n)\">\n  <render-check-field\n    type=\"radio\"\n    \n:label=\"$t('message.dog_desexed', { msg: value?.dog_name?.['dog_' + n] })\"\n    :name=\"'dog_desexed_' + n\"\n    validation=\"required\"\n    :options=\"[\n    { label: $t('message.spayed'), value: '0.7' },\n    { label:$t('message.castrated'), value:'0.73' },\n    { label: $t('message.not_sterilized'), value: '1' }\n  ]\"\n  >\n  <\/render-input-field>\n<\/div><\/div>\n{% endraw %}"
+            }
+          },
+          "9b962a8c-41c2-416f-a402-f8f9b8af64c2": {
+            "type": "step",
+            "settings": {
+              "step": "body_score",
+              "tab": "Body score",
+              "small_text": "Step 9\/9",
+              "heading": "Body score index",
+              "paragrapgh": "",
+              "stepInput": "{% raw %}\n\n<div v-for=\"n in dogs\">\n  <div v-if=\"!rmDogs.includes(n)\">\n  <render-check-field\n    type=\"radio\"\n    \n:label=\"$t('message.dog_score', { msg: value?.dog_name?.['dog_' + n] })\"\n    :name=\"'dog_score_' + n\"\n    validation=\"required\"\n    :options=\"[\n    { label: $t('message.very_thin'), value: '1' },\n    { label:$t('message.slightly_underweight'), value: '3' },\n    { label: $t('message.ideal'), value: '5' },\n    { label: $t('message.overweight'), value: '7' },\n    { label: $t('message.obese'), value: '9' }\n  ]\"\n  >\n  <\/render-input-field>\n<\/div>\n{% endraw %}"
+            }
+          }
+        },
+        "block_order": [
+          "440d69e5-221d-4542-817d-e5fc3b05d036",
+          "a39fa10d-360c-4a9f-a713-877b01d5b8a6",
+          "3961f44d-4970-4c93-a4ae-e8bb5c0486e6",
+          "afbb1efe-ae9e-4f5d-b69f-53e0547ba8e9",
+          "372c2629-66d8-4a9a-897e-964bae5e35e6",
+          "6d755c96-f9ae-43ad-8ff0-26bd5a740157",
+          "60179e4e-0cff-4d51-9496-d31225f66738",
+          "dd5f8041-96cc-4b3f-ad9a-719cadf3cb98",
+          "4dae89df-4f47-4c27-b626-ce353193f7e3",
+          "9b962a8c-41c2-416f-a402-f8f9b8af64c2"
+        ],
+        "custom_css": [
+          ".text-wrapper {display: block; width: 100%;}",
+          ".text {padding: 10px; margin: 10px; font-weight: bold; background-color: #white; color: #5dc2b2;}"
+        ],
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "10436698916776057164": {
+        "type": "shopify:\/\/apps\/appstle-subscriptions\/blocks\/appstle-subscription-helper\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "1793219247286972479": {
+        "type": "shopify:\/\/apps\/searchpie-seo-booster-speed\/blocks\/sb-snippets\/29f6c508-9bb9-4e93-9f98-b637b62f3552",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "logo_width": 90,
+      "colors_solid_button_labels": "#ffffff",
+      "colors_accent_1": "#121212",
+      "gradient_accent_1": "",
+      "colors_accent_2": "#334fb4",
+      "gradient_accent_2": "",
+      "colors_text": "#121212",
+      "colors_outline_button_labels": "#121212",
+      "colors_background_1": "#ffffff",
+      "gradient_background_1": "",
+      "colors_background_2": "#f3f3f3",
+      "gradient_background_2": "",
+      "type_header_font": "assistant_n4",
+      "heading_scale": 100,
+      "type_body_font": "assistant_n4",
+      "body_scale": 100,
+      "page_width": 1200,
+      "spacing_sections": 0,
+      "spacing_grid_horizontal": 8,
+      "spacing_grid_vertical": 8,
+      "buttons_border_thickness": 1,
+      "buttons_border_opacity": 100,
+      "buttons_radius": 0,
+      "buttons_shadow_opacity": 0,
+      "buttons_shadow_horizontal_offset": 0,
+      "buttons_shadow_vertical_offset": 4,
+      "buttons_shadow_blur": 5,
+      "variant_pills_border_thickness": 1,
+      "variant_pills_border_opacity": 55,
+      "variant_pills_radius": 40,
+      "variant_pills_shadow_opacity": 0,
+      "variant_pills_shadow_horizontal_offset": 0,
+      "variant_pills_shadow_vertical_offset": 4,
+      "variant_pills_shadow_blur": 5,
+      "inputs_border_thickness": 1,
+      "inputs_border_opacity": 55,
+      "inputs_radius": 0,
+      "inputs_shadow_opacity": 0,
+      "inputs_shadow_horizontal_offset": 0,
+      "inputs_shadow_vertical_offset": 4,
+      "inputs_shadow_blur": 5,
+      "card_style": "standard",
+      "card_image_padding": 0,
+      "card_text_alignment": "left",
+      "card_color_scheme": "background-2",
+      "card_border_thickness": 0,
+      "card_border_opacity": 10,
+      "card_corner_radius": 0,
+      "card_shadow_opacity": 0,
+      "card_shadow_horizontal_offset": 0,
+      "card_shadow_vertical_offset": 4,
+      "card_shadow_blur": 5,
+      "collection_card_style": "standard",
+      "collection_card_image_padding": 0,
+      "collection_card_text_alignment": "left",
+      "collection_card_color_scheme": "background-2",
+      "collection_card_border_thickness": 0,
+      "collection_card_border_opacity": 10,
+      "collection_card_corner_radius": 0,
+      "collection_card_shadow_opacity": 0,
+      "collection_card_shadow_horizontal_offset": 0,
+      "collection_card_shadow_vertical_offset": 4,
+      "collection_card_shadow_blur": 5,
+      "blog_card_style": "standard",
+      "blog_card_image_padding": 0,
+      "blog_card_text_alignment": "left",
+      "blog_card_color_scheme": "background-2",
+      "blog_card_border_thickness": 0,
+      "blog_card_border_opacity": 10,
+      "blog_card_corner_radius": 0,
+      "blog_card_shadow_opacity": 0,
+      "blog_card_shadow_horizontal_offset": 0,
+      "blog_card_shadow_vertical_offset": 4,
+      "blog_card_shadow_blur": 5,
+      "text_boxes_border_thickness": 0,
+      "text_boxes_border_opacity": 10,
+      "text_boxes_radius": 0,
+      "text_boxes_shadow_opacity": 0,
+      "text_boxes_shadow_horizontal_offset": 0,
+      "text_boxes_shadow_vertical_offset": 4,
+      "text_boxes_shadow_blur": 5,
+      "media_border_thickness": 1,
+      "media_border_opacity": 5,
+      "media_radius": 0,
+      "media_shadow_opacity": 0,
+      "media_shadow_horizontal_offset": 0,
+      "media_shadow_vertical_offset": 4,
+      "media_shadow_blur": 5,
+      "popup_border_thickness": 1,
+      "popup_border_opacity": 10,
+      "popup_corner_radius": 0,
+      "popup_shadow_opacity": 0,
+      "popup_shadow_horizontal_offset": 0,
+      "popup_shadow_vertical_offset": 4,
+      "popup_shadow_blur": 5,
+      "drawer_border_thickness": 1,
+      "drawer_border_opacity": 10,
+      "drawer_shadow_opacity": 0,
+      "drawer_shadow_horizontal_offset": 0,
+      "drawer_shadow_vertical_offset": 4,
+      "drawer_shadow_blur": 5,
+      "badge_position": "bottom left",
+      "badge_corner_radius": 40,
+      "sale_badge_color_scheme": "accent-2",
+      "sold_out_badge_color_scheme": "inverse",
+      "accent_icons": "text",
+      "brand_headline": "",
+      "brand_description": "<p><\/p>",
+      "brand_image_width": 100,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tiktok_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "predictive_search_enabled": true,
+      "predictive_search_show_vendor": false,
+      "predictive_search_show_price": false,
+      "currency_code_enabled": true,
+      "cart_type": "notification",
+      "show_vendor": false,
+      "show_cart_note": false,
+      "cart_drawer_collection": "",
+      "sections": {
+        "main-password-header": {
+          "type": "main-password-header",
+          "settings": {
+            "color_scheme": "background-1"
+          }
+        },
+        "main-password-footer": {
+          "type": "main-password-footer",
+          "settings": {
+            "color_scheme": "background-1"
+          }
+        }
+      }
+    }
+  }
+}

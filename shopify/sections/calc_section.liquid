@@ -1,0 +1,184 @@
+<div class="calculate">
+  <div class="calculate_section">
+    <div class="calc_btn">
+      <button>Calculate</button>
+    </div>
+    <div class="calc_sec_1 pure-g">
+      <div class="pure-u-1 pure-u-md-8-24">
+        <h1>{{ section.settings.text_1 }}</h1>
+      </div>
+      <div class="pure-u-1 pure-u-md-14-24">
+        <p>
+          {{ section.settings.text_2 }}
+        </p>
+      </div>
+    </div>
+    <div class="calc_sec_2">
+      <div class="age">
+        <h1>
+          My dog is a
+          <select>
+            <option>1-2 years</option>
+            <option>3-7 years</option>
+            <option>7+ years</option>
+          </select>
+          old
+          <select>
+            <option>Golden Retriever</option>
+            <option>Great Dane</option>
+            <option>Newfoundland</option>
+            <option>Small Musterlander</option>
+            <option>Magyar Viszla</option>
+            <option>English Foxhound</option>
+            <option>Rhodesian Ridgeback</option>
+            <option>Flat-Coated Retriever</option>
+            <option>Dalmatian</option>
+            <option>Sighthounds</option>
+            <option>Jack Russell Terrier</option>
+            <option>Bearded Collie</option>
+            <option>Bichon Frise</option>
+            <option>West Highland Terrier</option>
+            <option>Collies</option>
+            <option>Dachshunds</option>
+            <option>Airedale Terrier</option>
+            <option>Staffordshire Terrier</option>
+          </select>
+          and weighs
+          <select>
+            <option>1-5kg</option>
+            <option>10-15kg</option>
+            <option>20-25kg</option>
+            <option>25-30kg</option>
+            <option>30kg +</option>
+          </select>
+        </h1>
+      </div>
+    </div>
+    <div class="calc_sec_3 pure-g">
+      {% for block in section.blocks %}
+        <div
+          class="sec_3 itemss pure-u-1 pure-u-md-7-24  {{ block.settings.year | handleize }} {{ block.settings.type | handleize }} {{ block.settings.weight | handleize }} "
+          date-item="{{ block.settings.item }}"
+        >
+          <div class="sec_3_img">
+            <img src="{{ block.settings.image | image_url }}" alt="">
+          </div>
+          <div class="sec_3_desc">
+            <h5>{{ block.settings.text }}</h5>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="sec_3_btn">
+      <a href="{{ section.settings.link }}">Try For Franky</a>
+    </div>
+  </div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.6.4.min.static.js"
+  integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+  crossorigin="anonymous"
+></script>
+
+<script>
+  $(document).ready(function () {
+    // $( ".itemss:nth-of-type(even)" ).static.css('display', 'none')
+    $('.age select').change(function () {
+      var vl = $(this).val().toLowerCase();
+      console.log(vl);
+      var isfd = $('.calc_sec_3').find('.itemss').attr('class').includes(vl);
+      console.log(isfd);
+      if (isfd) {
+        $('.calc_sec_3')
+          .find('.itemss' + '.' + vl)
+          .fadeIn();
+      } else {
+        $('.calc_sec_3')
+          .find('.itemss' + '.' + vl)
+          .fadeOut();
+      }
+    });
+  });
+</script>
+
+<style>
+  .calculate {
+    background-image: url({{ section.settings.bg_img | image_url }});
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "calc_section",
+  "settings": [
+    {
+      "label": "bg_img",
+      "id": "bg_img",
+      "type": "image_picker"
+    },
+    {
+      "label": "text_1",
+      "id": "text_1",
+      "type": "text"
+    },
+    {
+      "label": "text_2",
+      "id": "text_2",
+      "type": "text"
+    },
+    {
+      "label": "link",
+      "id": "link",
+      "type": "url"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "items",
+      "name": "items",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "image"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "text"
+        },
+        {
+          "type": "text",
+          "id": "year",
+          "label": "year"
+        },
+        {
+          "type": "text",
+          "id": "type",
+          "label": "type"
+        },
+        {
+          "type": "text",
+          "id": "weight",
+          "label": "weight"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "calc_section"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

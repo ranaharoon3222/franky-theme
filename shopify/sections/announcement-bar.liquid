@@ -1,0 +1,128 @@
+{% stylesheet %}
+  .span_sample{
+    color: #F48F86;
+    font-size: 2rem;
+  }
+{% endstylesheet %}
+
+
+{% if template.name == 'index' or request.path == '/pages/sustainability' or request.path == '/pages/about' or request.path == '/pages/whyus' or request.path == '/pages/our-product' or request.path == '/pages/subscription' or request.path == '/blogs/news' or request.path == '/pages/contact' or request.path == '/pages/product#quizz'  or request.path == '/fr/pages/sustainability' or request.path == '/fr/pages/about' or request.path == '/fr/pages/whyus' or request.path == '/fr/pages/our-product' or request.path == '/fr/pages/subscription' or request.path == '/fr/blogs/news' or request.path == '/fr/pages/contact' or request.path == '/fr/pages/product#quizz' or request.path == '/nl/pages/sustainability' or request.path == '/nl/pages/about' or request.path == '/nl/pages/whyus' or request.path == '/nl/pages/our-product' or request.path == '/nl/pages/subscription' or request.path == '/nl/blogs/news' or request.path == '/nl/pages/contact' or request.path == '/nl/pages/product#quizz' %}
+ {%- for block in section.blocks -%}
+  {%- case block.type -%}
+    {%- when 'announcement' -%}
+      <div class="announcement-bar color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+        {%- if block.settings.text != blank -%}
+          {%- if block.settings.link != blank -%}
+            <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
+          {%- endif -%}
+              <div class="page-width">
+                <p class="announcement-bar__message {{ block.settings.text_alignment }} h5">
+                  <span>{{ block.settings.text_first }}<span class="span_sample"> {{ block.settings.text | escape }}</span>{{ block.settings.text_second }}</span>
+                  {%- if block.settings.link != blank -%}
+                    {% render 'icon-arrow' %}
+                  {%- endif -%}
+                </p>
+              </div>
+          {%- if block.settings.link != blank -%}
+            </a>
+          {%- endif -%}
+        {%- endif -%}
+      </div>
+  {%- endcase -%}
+{%- endfor -%}
+
+{% endif %}
+
+{% schema %}
+{
+  "name": "t:sections.announcement-bar.name",
+  "max_blocks": 12,
+  "class": "announcement-bar-section",
+  "blocks": [
+    {
+      "type": "announcement",
+      "name": "t:sections.announcement-bar.blocks.announcement.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text_first",
+          "default": "Welcome to our store",
+          "label": "text before"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Welcome to our store",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+        },
+        {
+          "type": "text",
+          "id": "text_second",
+          "default": "Welcome to our store",
+          "label": "text after"
+        },
+        {
+          "type": "select",
+          "id": "text_alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__1.label"
+            },
+            {
+              "value": "center",
+              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__2.label"
+            },
+            {
+              "value": "right",
+              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__3.label"
+            }
+          ],
+          "default": "center",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.label"
+        },
+        {
+          "type": "select",
+          "id": "color_scheme",
+          "options": [
+            {
+              "value": "accent-1",
+              "label": "t:sections.all.colors.accent_1.label"
+            },
+            {
+              "value": "accent-2",
+              "label": "t:sections.all.colors.accent_2.label"
+            },
+            {
+              "value": "background-1",
+              "label": "t:sections.all.colors.background_1.label"
+            },
+            {
+              "value": "background-2",
+              "label": "t:sections.all.colors.background_2.label"
+            },
+            {
+              "value": "inverse",
+              "label": "t:sections.all.colors.inverse.label"
+            }
+          ],
+          "default": "accent-1",
+          "label": "t:sections.all.colors.label"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.link.label"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "announcement"
+      }
+    ]
+  }
+}
+{% endschema %}

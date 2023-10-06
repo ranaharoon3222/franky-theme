@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": true
+          }
+        },
+        "e885cfd3-c269-4869-8fd1-1f403743b8bd": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "e885cfd3-c269-4869-8fd1-1f403743b8bd",
+        "content"
+      ],
+      "custom_css": [
+        "h1 {padding-top: 100px;}",
+        "h1,h2,h3,h4 {color: #5ec3b2;}",
+        ".article-template__hero-adapt {border-radius: 22px;}",
+        ".article-template__hero-container {max-width: 90rem; margin: 0 auto; padding: 7rem 0;}"
+      ],
+      "settings": {
+      }
+    },
+    "08a39a03-ae66-4833-b50b-13c82d2293bb": {
+      "type": "featured-blog",
+      "disabled": true,
+      "custom_css": [
+        "h2 {color: white;}",
+        ".blog__text {color: white;}"
+      ],
+      "settings": {
+        "class": "",
+        "bg": "shopify://shop_images/bgg.png",
+        "heading": "Other posts  you might also like",
+        "text": "",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "08a39a03-ae66-4833-b50b-13c82d2293bb"
+  ]
+}

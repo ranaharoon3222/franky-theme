@@ -1,0 +1,184 @@
+<div class="section_5">
+  <div class="section_5-upper pure-g wrapperr">
+    <div class="section_5-left pure-u-1 pure-u-md-12-24">
+      <div class="section_3-button">
+        <button>{{ section.settings.text_1 }}</button>
+      </div>
+      <div class="section_3-title">
+        <h1>{{ section.settings.text_2 }}</h1>
+      </div>
+      <div class="section_3-subtitle">
+        <p>
+          {{ section.settings.text_3 }}
+        </p>
+      </div>
+      <div class="section_3-btn">
+        <a class="p_btn quizOpen">{{ section.settings.call_to_action }}</a>
+      </div>
+    </div>
+    <div class="section_5-right pure-u-1 pure-u-md-12-24">
+      <div class="section_5-image-upper">
+        <img src="{{ section.settings.image_1 | image_url }}" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="arrow-upper">
+    <img src="{{ section.settings.image_2 | image_url }}" alt="arrow">
+  </div>
+  <div class="section_5-lower pure-g wrapperr">
+    <div class="section_5-lower-frst card pure-u-1 pure-u-md-8-24">
+      <div class="section_5-image-lower">
+        <img src="{{ section.settings.image_3 | image_url }}" alt="">
+      </div>
+      <div class="section_5-heading">
+        <h2>{{ section.settings.text_4 }}</h2>
+      </div>
+      <div class="section_5-desc">
+        <p>
+          {{ section.settings.text_5 }}
+        </p>
+      </div>
+    </div>
+    <div class="section_5-lower-scnd card pure-u-1 pure-u-md-8-24">
+      <div class="section_5-image-lower">
+        <img src="{{ section.settings.image_4 | image_url }}" alt="">
+      </div>
+      <div class="section_5-heading">
+        <h2>{{ section.settings.text_6 }}</h2>
+      </div>
+      <div class="section_5-desc">
+        <p>
+          {{ section.settings.text_7 }}
+        </p>
+      </div>
+    </div>
+    <div class="section_5-lower-thrd card pure-u-1 pure-u-md-8-24">
+      <div class="section_5-image-lower">
+        <img src="{{ section.settings.image_5 | image_url }}" alt="">
+      </div>
+      <div class="section_5-heading">
+        <h2>{{ section.settings.text_8 }}</h2>
+      </div>
+      <div class="section_5-desc">
+        <p>
+          {{ section.settings.text_9 }}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="arrow-lower">
+    <img src="{{ section.settings.image_6 | image_url }}" alt="arrow">
+  </div>
+  <div class="section_3-btn section_5-lower_btn">
+        <a class="p_btn quizOpen">{{ section.settings.call_to_action_two }}</a>
+      </div>
+</div>
+
+{% schema %}
+{
+  "name": "section_5",
+  "settings": [
+    {
+      "label": "image_1",
+      "id": "image_1",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_2",
+      "id": "image_2",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_3",
+      "id": "image_3",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_4",
+      "id": "image_4",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_5",
+      "id": "image_5",
+      "type": "image_picker"
+    },
+    {
+      "label": "image_6",
+      "id": "image_6",
+      "type": "image_picker"
+    },
+    {
+      "label": "text_1",
+      "id": "text_1",
+      "type": "text"
+    },
+    {
+      "label": "text_2",
+      "id": "text_2",
+      "type": "text"
+    },
+    {
+      "label": "text_3",
+      "id": "text_3",
+      "type": "text"
+    },
+    {
+      "label": "call to action",
+      "id": "call_to_action",
+      "type": "text"
+    },
+    {
+      "label": "text_4",
+      "id": "text_4",
+      "type": "text"
+    },
+    {
+      "label": "text_5",
+      "id": "text_5",
+      "type": "text"
+    },
+    {
+      "label": "text_6",
+      "id": "text_6",
+      "type": "text"
+    },
+    {
+      "label": "text_7",
+      "id": "text_7",
+      "type": "text"
+    },
+    {
+      "label": "text_8",
+      "id": "text_8",
+      "type": "text"
+    },
+    {
+      "label": "text_9",
+      "id": "text_9",
+      "type": "text"
+    },
+    {
+      "label": "call to action two",
+      "id": "call_to_action_two",
+      "type": "text"
+    },
+    {
+      "label": "link_1",
+      "id": "link_1",
+      "type": "url"
+    }
+  ],
+  "presets": [
+    {
+      "name": "section_5"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

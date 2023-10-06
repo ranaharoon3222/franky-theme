@@ -1,0 +1,195 @@
+<div id="quiz" vue>
+  <div id="smartwizard">
+    <div class="close" id="close-button">X</div>
+    <ul class="menus nav">
+      {% for b in section.blocks %}
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            :class="$store.state.step.currentStep == {{ forloop.index0 }} ? 'active': ''"
+            href="#step-{{ forloop.index }}"
+          >
+            <div>{{ b.settings.tab }}</div>
+            <div class="num">{{ forloop.index }}</div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <form id="quizForm" class="">
+      <div class="tab-content">
+        <div v-if="$store.state.step.currentStep == 0">
+          {% for b in section.blocks %}
+            {% if forloop.index0 == 0 %}
+              <div class="step_content">
+                <div class="step_inner">
+                  <small>{{ b.settings.small_text }}</small>
+                  <h1>{{ b.settings.heading }}</h1>
+                  <div>{{ b.settings.paragrapgh }}</div>
+                </div>
+
+                <div class="form-button-wrap">
+                  <a
+                    href="#"
+                    class="next btn"
+                    @click="$store.dispatch('step/next', 1)"
+                    v-text="$t('message.get_started_button')"
+                  >
+                  </a>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        <div v-if="$store.state.step.currentStep != 0">
+          <render-quiz-form customer="{{ customer.id }}">
+            <template v-slot:result="{dogs,dog,addToCart, loading,backToQuiz,alreadyCart, postal_code_not_found }">
+              {% render 'quiz-result' %}
+            </template>
+
+            <template v-slot="{ count,dogs,value,removeDog,rmDogs }">
+              {% for b in section.blocks %}
+                {% if forloop.index0 != 0 %}
+                  {% if b.settings.stepInput %}
+                    <render-step-field step="{{ b.settings.step }}">
+                      <template v-slot:content>
+                        <div class="innr-content">
+                          <small>{{ b.settings.small_text }}</small>
+                          <h1>{{ b.settings.heading }}</h1>
+                          <div>{{ b.settings.paragrapgh }}</div>
+                        </div>
+                      </template>
+
+                      <template v-slot:fields>
+                        {{ b.settings.stepInput }}
+                      </template>
+                    </render-step-field>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            </template>
+
+            {% comment %} order review {% endcomment %}
+
+            <template v-slot:review="{value,dogs}">
+              <div>
+                <div class="item-flex">
+                  <div v-text="$t('message.full_name')"></div>
+                  <div v-text="`${value?.information.full_name}`"></div>
+                </div>
+                <div class="item-flex">
+                  <div v-text="$t('message.email')"></div>
+                  <div v-text="`${value?.information.email}`"></div>
+                </div>
+                <div class="item-flex">
+                  <div v-text="$t('message.postal_code')"></div>
+                  <div v-text="`${value?.information.postal_code}`"></div>
+                </div>
+
+                <div v-for="n in dogs">
+                  <h2
+                    class="order-review-h2"
+                    v-text="$t('message.quiz_detail_title' , {msg:  value?.dog_name['dog_' + n] })"
+                  ></h2>
+                  <div class="item-flex">
+                    <div v-text="$t('message.dog_name')"></div>
+                    <div v-text="`${value?.dog_name['dog_' + n] }`"></div>
+                  </div>
+
+                  <div class="item-flex">
+                    <div v-text="$t('message.breed', { msg: value?.dog_name?.['dog_' + n] })"></div>
+                    <div v-text="`${value?.breed['breed_' + n + '_label'] }`"></div>
+                  </div>
+
+                  <div class="item-flex">
+                    <div v-text="$t('message.dog_weight', { msg: value?.dog_name?.['dog_' + n] })"></div>
+                    <div v-text="`${value?.weight['dogweight_' + n] }`"></div>
+                  </div>
+
+                  <div class="item-flex">
+                    <div v-text="$t('message.dog_year', { msg: value?.dog_name?.['dog_' + n] })"></div>
+                    <div v-text="`${value?.age['dog_year_' + n ] }`"></div>
+                  </div>
+
+                  <div class="item-flex">
+                    <div v-text="$t('message.dog_month', { msg: value?.dog_name?.['dog_' + n] })"></div>
+                    <div v-text="`${value?.age['dog_month_' + n] }`"></div>
+                  </div>
+
+                  <div class="item-flex">
+                    <div v-text="$t('message.dog_sex', { msg: value?.dog_name?.['dog_' + n] })"></div>
+                    <div v-text="`${value?.sex['dog_sex_' + n + '_label'] }`"></div>
+                  </div>
+
+                  <div class="item-flex">
+                    <div v-text="$t('message.dog_activity', { msg: value?.dog_name?.['dog_' + n] })"></div>
+                    <div v-text="`${value?.activity['dog_activity_' + n + '_label'] }`"></div>
+                  </div>
+
+                  <div class="item-flex">
+                    <div v-text="$t('message.dog_desexed', { msg: value?.dog_name?.['dog_' + n] })"></div>
+                    <div v-text="`${value?.desexed['dog_desexed_' + n + '_label'] }`"></div>
+                  </div>
+
+                  <div class="item-flex">
+                    <div v-text="$t('message.dog_score', { msg: value?.dog_name?.['dog_' + n] })"></div>
+                    <div v-text="`${value?.body_score['dog_score_' + n + '_label'] }`"></div>
+                  </div>
+                </div>
+              </div>
+            </template>
+
+            {% comment %} order review  end {% endcomment %}
+          </render-quiz-form>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Franky Quiz",
+  "settings": [],
+  "class": "vue",
+  "blocks": [
+    {
+      "type": "step",
+      "name": "step",
+      "settings": [
+        {
+          "type": "text",
+          "id": "step",
+          "label": "step name"
+        },
+        {
+          "type": "text",
+          "id": "tab",
+          "label": "Tab Title"
+        },
+        {
+          "type": "text",
+          "id": "small_text",
+          "label": "Small Text"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "paragrapgh",
+          "label": "Paragragh"
+        },
+        {
+          "type": "liquid",
+          "id": "stepInput",
+          "label": "Input Fields"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
